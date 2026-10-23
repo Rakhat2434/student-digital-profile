@@ -6,7 +6,7 @@ Source: [YouTrack SDP-7](https://student-digital-profile.youtrack.cloud/issue/SD
 
 The current local package has 41 screens and 288 transitions. Every exported hotspot was clicked in the browser preview without forced clicks and reached its declared destination. Student validation/saving, teacher correction/saving and mobile navigation passed. This proves the browser package's routing, not the installed Figma file or backend behavior.
 
-The owner reported completing local Figma setup. The exact installed revision and Present behavior have not yet been independently verified. The old node ledger describes revision 01 only.
+Revision 03 is installed and its student add/save journey was verified in Figma Present; see the native verification record below. The old node ledger describes revision 01 only.
 
 ## Task acceptance matrix
 

@@ -10,7 +10,7 @@ Task: [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7)
 
 ## 1. Current deliverable
 
-The current package contains 41 screens and 288 predefined transitions. See the [current screen inventory and acceptance matrix](../../prototype/acceptance-review.md), [interactive preview](figma-prototype/preview.html), and [installation guide](figma-prototype/README.md). Local Figma setup was reported complete by the owner; verification of the installed page in Present is still pending.
+The current package contains 41 screens and 288 predefined transitions. See the [current screen inventory and acceptance matrix](../../prototype/acceptance-review.md), [interactive preview](figma-prototype/preview.html), and [installation guide](figma-prototype/README.md). Revision 03 was observed in the browser editor and its student add/save journey passed in Present. Remaining native checks are recorded in the acceptance matrix.
 
 The node-specific links below refer to the original 13-screen revision, not verified revision-03 node IDs.
 
