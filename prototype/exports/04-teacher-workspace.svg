@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" role="img" aria-label="Your assigned students">
+<title>Your assigned students</title>
+<rect x="0" y="0" width="1440" height="1024" rx="0" fill="#F2F5F8"/>
+<rect x="0" y="0" width="232" height="1024" rx="0" fill="#FFFFFF"/>
+<path d="M232 0 L232 1024" stroke="#D9E2EA" fill="none"/>
+<rect x="28" y="30" width="38" height="38" rx="10" fill="#176887"/>
+<text x="36" y="55" fill="#FFFFFF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="25" font-weight="700">S</text>
+<text x="78" y="47" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="19" font-weight="650">Student</text>
+<text x="78" y="66" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">digital profile</text>
+<text x="28" y="128" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">WORKSPACE</text>
+<rect x="16" y="151" width="200" height="44" rx="8" fill="#E8F2F6"/>
+<rect x="16" y="161" width="3" height="24" rx="1" fill="#176887"/>
+<path transform="translate(30 162)" d="M11 2a4 4 0 1 0 0 8a4 4 0 1 0 0-8 M3 21v-3a8 8 0 0 1 16 0v3" stroke="#176887" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="64" y="179" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Assigned students</text>
+<path transform="translate(30 216)" d="M4 2h14v18H4z M8 7h6 M8 11h6 M8 15h4" stroke="#526779" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="64" y="233" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Academic results</text>
+<rect x="20" y="744" width="192" height="118" rx="10" fill="#F2F5F8"/>
+<text x="36" y="770" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">A record you can understand</text>
+<text x="36" y="794" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">Every indicator connects</text>
+<text x="36" y="813" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">back to your course results.</text>
+<text x="36" y="842" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Demonstration workspace</text>
+<path d="M20 912 L212 912" stroke="#D9E2EA" fill="none"/>
+<circle cx="44" cy="950" r="18" fill="#E8F2F6"/>
+<text x="33" y="955" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">TD</text>
+<text x="74" y="947" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Teacher Demo</text>
+<text x="74" y="966" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Teacher account</text>
+<rect x="233" y="0" width="1207" height="80" rx="0" fill="#FFFFFF"/>
+<path d="M232 80 L1440 80" stroke="#D9E2EA" fill="none"/>
+<text x="272" y="47" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Workspace</text>
+<text x="354" y="47" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">/</text>
+<text x="375" y="47" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="500">Assigned students</text>
+<rect x="1120" y="26" width="113" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1132" y="45" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Synthetic data</text>
+<circle cx="1372" cy="40" r="18" fill="#E8F2F6"/>
+<text x="1361" y="45" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">TD</text>
+<text x="272" y="122" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="600">ACADEMIC YEAR 2026–2027</text>
+<text x="272" y="163" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="30" font-weight="650">Your assigned students</text>
+<text x="272" y="191" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Review course results within your teaching assignments.</text>
+<rect x="1190" y="130" width="210" height="42" rx="8" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="1206" y="157" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Autumn 2026  ∨</text>
+<text x="272" y="994" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Student Digital Profile  /  SDP-7 · Design revision 02</text>
+<text x="1130" y="994" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Fictional records · No live data</text>
+<rect x="272" y="224" width="1128" height="84" rx="12" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="296" y="252" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">COURSE</text>
+<text x="296" y="283" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="16" font-weight="600">Software architecture</text>
+<text x="691" y="252" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">GROUP</text>
+<text x="691" y="283" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="16" font-weight="400">SE-DEMO</text>
+<rect x="1180" y="252" width="160" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1192" y="271" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Assigned scope</text>
+<rect x="272" y="332" width="1128" height="366" rx="12" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="296" y="372" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="20" font-weight="650">Student results</text>
+<text x="1272" y="370" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">3 students</text>
+<rect x="288" y="397" width="1096" height="44" rx="6" fill="#F2F5F8"/>
+<text x="306" y="425" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">STUDENT</text>
+<text x="700" y="425" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">STUDENT ID</text>
+<text x="910" y="425" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">RESULT</text>
+<text x="1110" y="425" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">STATUS</text>
+<text x="1280" y="425" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">ACTION</text>
+<circle cx="321" cy="474" r="18" fill="#E8F2F6"/>
+<text x="310" y="479" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">DS</text>
+<text x="356" y="480" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="500">Dana Sarsen</text>
+<text x="700" y="480" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">DEMO-001</text>
+<text x="910" y="480" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">A · 4.00</text>
+<rect x="1100" y="461" width="102" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1112" y="480" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Recorded</text>
+<text x="1280" y="480" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Edit result</text>
+<path d="M304 510 L1370 510" stroke="#D9E2EA" fill="none"/>
+<circle cx="321" cy="544" r="18" fill="#E8F2F6"/>
+<text x="310" y="549" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">AB</text>
+<text x="356" y="550" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="500">Arman Bek</text>
+<text x="700" y="550" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">DEMO-002</text>
+<text x="910" y="550" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">—</text>
+<rect x="1100" y="531" width="102" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1112" y="550" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Pending</text>
+<text x="1280" y="550" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Edit result</text>
+<path d="M304 580 L1370 580" stroke="#D9E2EA" fill="none"/>
+<circle cx="321" cy="614" r="18" fill="#E8F2F6"/>
+<text x="310" y="619" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">AN</text>
+<text x="356" y="620" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="500">Amina Nur</text>
+<text x="700" y="620" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">DEMO-003</text>
+<text x="910" y="620" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">B · 3.00</text>
+<rect x="1100" y="601" width="102" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1112" y="620" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Recorded</text>
+<text x="1280" y="620" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Edit result</text>
+<path d="M304 650 L1370 650" stroke="#D9E2EA" fill="none"/>
+<rect x="272" y="724" width="1128" height="138" rx="12" fill="#E8F2F6"/>
+<text x="296" y="764" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="20" font-weight="650">Your assignment defines access</text>
+<text x="296" y="797" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Only results for students in your assigned course are shown. Grades are validated against the selected policy.</text>
+<text x="296" y="829" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Student portfolios and results in other courses are not exposed by this workspace.</text>
+</svg>
