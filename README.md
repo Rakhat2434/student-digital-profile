@@ -1,136 +1,177 @@
+<div align="center">
+
 # Student Digital Profile
 
-**An academic profile that connects student results, calculated indicators and achievement evidence.**
+### An Information System for Creating and Visualizing Student Digital Profiles
 
-Diploma project · Software Engineering · Planning and design stage
+Software Engineering Diploma Project · 2026
 
-[Project tracker](https://student-digital-profile.youtrack.cloud/projects/SDP/issues) · [Figma design](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [Documentation index](docs/README.md) · [Contribution guide](CONTRIBUTING.md)
+[Overview](#overview) · [Documentation](#documentation) · [Figma Prototype](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [YouTrack](https://student-digital-profile.youtrack.cloud/projects/SDP/issues)
 
-## About the project
+</div>
 
-**Development of an Information System for Creating and Visualizing Student Digital Profiles** is a web-based system for organizing academic records, calculating performance indicators and presenting a student's progress across semesters.
+---
 
-The problem being investigated is fragmented educational information: course results, achievements and certificates may be stored separately, making a coherent view of progress difficult. The proposed system brings selected information together and makes calculated indicators traceable to their source records. Stakeholder research and evaluation are still required to validate the problem and the solution.
+## Overview
 
-Russian diploma title: **Разработка информационной системы формирования и визуализации цифрового профиля обучающегося**.
+Student Digital Profile is a proposed web-based information system that brings academic records, performance indicators and achievement evidence into a unified student profile. It is designed to help students understand their progress, support teachers in maintaining assigned academic records, and provide administrators with tools for managing accounts and academic assignments.
 
-## Who it serves
+The project addresses the fragmentation of educational information across separate records and services. Its objective is to present a coherent view of student progress while keeping indicators traceable to the grades, credits and grading policies from which they are calculated.
 
-| User | Main task | Access boundary |
+**Project stage:** requirements specification and interactive prototyping. Application implementation and deployment are planned.
+
+## Objectives
+
+- Define a structured digital profile combining academic information and selected achievements.
+- Calculate semester and cumulative GPA using explicit, versioned grading rules.
+- Visualize academic progress with consistent charts and supporting records.
+- Apply role-based access and student ownership boundaries throughout the system.
+- Evaluate the interface through representative user scenarios and measurable acceptance criteria.
+
+## Users and Responsibilities
+
+| Role | Primary responsibilities | Access scope |
 | --- | --- | --- |
-| Student | Review their profile, course results, GPA and achievements | Own information |
-| Teacher | Maintain results and inspect performance for assigned courses | Assigned student/course records |
-| Administrator | Manage test accounts, groups, course assignments and configuration | Explicitly authorized administrative operations |
+| **Student** | Review academic progress, inspect results and maintain personal achievements | Own profile and records |
+| **Teacher** | Review assigned students and maintain course results | Assigned courses and student enrolments |
+| **Administrator** | Manage test accounts, groups, assignments and grading configuration | Authorized administrative operations |
 
-The justification also mentions advisers. Their mapping to the teacher role and wider profile access must be agreed before implementation. Real university data access is not assumed; demonstrations use synthetic or authorized test data.
+Demonstrations use synthetic data. Institutional integrations and additional adviser permissions require a separate scope agreement.
 
-## MVP and later scope
+## Project Scope
 
-| Initial MVP | Later enhancements |
+### Minimum Viable Product
+
+| Area | Planned capabilities |
 | --- | --- |
-| Login/logout with test accounts and server-enforced role access | University SSO and external system integration |
-| Basic student profile and enrolled courses | Advanced competency and project portfolios |
-| Grades, credits and configurable GPA calculation | CSV/Excel import, subject to scope agreement |
-| Semester dashboard and transparent academic charts | Extended analytics and reporting |
-| Selected achievements and certificates | PDF export and extracurricular activity tracking |
-| Account, group and assignment administration | Full Kazakh/Russian/English localization |
+| Authentication | Test-account sign-in, sign-out and role-scoped access |
+| Student profiles | Student information, programme, group and enrolled courses |
+| Academic records | Semester-based grades, credits and result status |
+| Performance indicators | Configurable GPA calculation and academic progress visualization |
+| Achievements | Personal achievement records with certificate evidence |
+| Administration | Account, group, course and teacher-assignment management |
 
-Native mobile apps, replacing an LMS and unauthorized access to university databases are outside the initial scope. The architecture branch describes import as MVP while the Proposal lists it as a later enhancement; SDP-5 records this disagreement for review.
+### Future Extensions
 
-## Current status
+CSV/Excel import, external learning-system integration, advanced competency portfolios, PDF reporting and full Kazakh/Russian/English localization are candidates for later development. Import scope is subject to reconciliation between the proposal and architecture documents.
 
-This repository contains planning documentation. **There is no runnable application, package manifest, database migration or deployment configuration in the reviewed baseline.** Do not run invented `npm` or Docker setup commands.
+Native mobile applications and replacement of an institutional learning management system are outside the initial scope.
 
-Aimaut's deliverables are isolated in local task branches and have not been merged into `main`:
+## Interface and Prototype
 
-| Task | Branch | Main deliverable |
-| --- | --- | --- |
-| [SDP-5 · Requirements Specification](https://student-digital-profile.youtrack.cloud/issue/SDP-5) | `SDP-5-requirements-specification` | `docs/requirements/SDP-5-requirements-specification.md` |
-| [SDP-7 · UX / Prototype](https://student-digital-profile.youtrack.cloud/issue/SDP-7) | `SDP-7-ux-prototype` | `docs/ux/SDP-7-ux-prototype.md`, `DESIGN.md`, `UX-CONTRACT.md` and Figma |
-| [SDP-10 · GitHub README & Repository Structure](https://student-digital-profile.youtrack.cloud/issue/SDP-10) | `SDP-10-github-readme-repository-structure` | This README, documentation index and repository contribution conventions |
+The [Figma design file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) presents the proposed interface. The SDP-7 branch also provides a redesigned interactive package with **41 screens and 288 predefined transitions**, covering:
 
-The Figma file contains 13 editable screens and predefined prototype journeys. Final screenshot/structural verification was blocked by the Figma Starter tool limit. It is a design deliverable, not a deployed application. The SDP-5, SDP-7 and SDP-10 descriptions were checked in authenticated YouTrack on 23 October 2026. SDP-7 also has a local 41-screen / 288-transition redesign package on its branch; installation in Figma remains pending. All three tasks require independent team review. Repository access for each team member must still be verified by an owner; it is not implied by a local clone.
+- Student overview, academic records, course details and profile navigation.
+- Achievement browsing, certificate evidence, validation, saving and deletion scenarios.
+- Teacher grade correction and the corresponding GPA update.
+- Administrator account and access-policy views.
+- Mobile navigation, empty states and error recovery.
 
-## Technology direction
+The prototype uses scripted sample inputs and predefined states. It does not provide production authentication, persistent storage or real file uploads. Local Figma setup has been reported complete; final verification of the installed revision in Figma Present remains pending.
 
-The existing [technology comparison](docs/technology-comparison/05-technology-comparison.md) proposes:
+Prototype exports and the review checklist are maintained in `prototype/` on `SDP-7-ux-prototype`. The offline preview and Figma builder are in `docs/ux/figma-prototype/` on the same branch.
 
-| Layer | Selected direction |
+## Technology Stack
+
+The following direction is documented in the [technology comparison](docs/technology-comparison/05-technology-comparison.md). These technologies describe the planned implementation.
+
+| Layer | Technologies |
 | --- | --- |
-| Web interface | Next.js, React, TypeScript, Tailwind CSS |
-| Charts | Apache ECharts |
+| Frontend | Next.js, React, TypeScript, Tailwind CSS |
+| Data visualization | Apache ECharts |
 | Profile API | Next.js Route Handlers, Zod |
 | Data processing | Python, FastAPI, Pandas, SQLAlchemy |
-| Storage | PostgreSQL |
-| Contracts and identity | REST/JSON, OpenAPI, Auth.js / NextAuth.js with role checks |
-| Verification | Jest, pytest and API checks |
+| Database | PostgreSQL |
+| API contracts | REST/JSON, OpenAPI |
+| Authentication | Auth.js / NextAuth.js with role checks |
+| Testing | Jest, pytest and API acceptance checks |
 
-These are design choices, not installed or verified dependencies. Token verification between services, database ownership and production file storage still need concrete implementation decisions. The data-processing architecture does not automatically make import an approved MVP requirement.
+## Documentation
 
-## Repository layout
+[Browse the documentation index](docs/README.md) for document locations, branch references and inspection commands.
 
-Files present on **this SDP-10 branch**:
+| Deliverable | Task | Location |
+| --- | --- | --- |
+| Project proposal and scope | [SDP-1](https://student-digital-profile.youtrack.cloud/issue/SDP-1) | `docs/project-proposal/01-proposal.md` on the proposal branch |
+| Technology comparison | [SDP-4](https://student-digital-profile.youtrack.cloud/issue/SDP-4) | [Technology comparison](docs/technology-comparison/05-technology-comparison.md) |
+| Requirements specification | [SDP-5](https://student-digital-profile.youtrack.cloud/issue/SDP-5) | `docs/requirements/` on `SDP-5-requirements-specification` |
+| Architecture and diagrams | [SDP-6](https://student-digital-profile.youtrack.cloud/issue/SDP-6) | `07-architecture.md` and diagrams on `SDP-6` |
+| UX and interactive prototype | [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7) | `prototype/` and `docs/ux/` on `SDP-7-ux-prototype` |
+| Repository organization | [SDP-10](https://student-digital-profile.youtrack.cloud/issue/SDP-10) | [Repository guide](docs/repository/SDP-10-repository-guide.md) |
+
+Task deliverables remain in their respective branches until reviewed and merged. Cross-branch paths are listed explicitly to distinguish them from files available in the current checkout.
+
+## Repository Structure
+
+The SDP-10 documentation branch contains:
 
 ```text
 student-digital-profile/
-├── README.md
-├── .gitignore
-├── CONTRIBUTING.md
 ├── .github/
 │   └── pull_request_template.md
-└── docs/
-    ├── README.md
-    ├── repository/
-    │   └── SDP-10-repository-guide.md
-    └── technology-comparison/
-        └── 05-technology-comparison.md
+├── docs/
+│   ├── repository/
+│   │   └── SDP-10-repository-guide.md
+│   ├── technology-comparison/
+│   │   └── 05-technology-comparison.md
+│   └── README.md
+├── .gitignore
+├── CONTRIBUTING.md
+└── README.md
 ```
 
-Other task documents remain in their respective branches. The [documentation index](docs/README.md) explains how to inspect them. The [repository guide](docs/repository/SDP-10-repository-guide.md) distinguishes current files from a proposed future code layout.
+The [repository guide](docs/repository/SDP-10-repository-guide.md) describes the proposed source-code, service, test and infrastructure layout for the implementation phase.
 
-## Open locally in VS Code
+## Getting Started
 
-For the existing checkout, open its folder in VS Code and select a task branch in the Git status bar. From the integrated terminal:
+### Explore the Repository
 
-```powershell
-git status
-git branch --list
-git switch SDP-5-requirements-specification
-```
+Git is required to clone the repository. A Markdown-capable editor such as Visual Studio Code is sufficient to review the current documentation.
 
-Save or commit your own changes before switching. To inspect a document without switching:
-
-```powershell
-git show SDP-5-requirements-specification:docs/requirements/SDP-5-requirements-specification.md
-git show SDP-7-ux-prototype:docs/ux/SDP-7-ux-prototype.md
-```
-
-For a fresh clone, the verified remote of this checkout is:
-
-```powershell
+```bash
 git clone https://github.com/Rakhat2434/student-digital-profile.git
 cd student-digital-profile
 git branch -a
 ```
 
-Local task branches are available to a fresh clone only after they have been pushed. The previously mentioned organization repository is not this checkout's configured `origin`; verify the intended destination before publication. GitHub App installation is not required for ordinary local Git editing.
+Open `README.md` and follow the documentation links. In Visual Studio Code, use **Ctrl+Shift+V** to preview Markdown. Task branches appear in a fresh clone after they have been published.
+
+### Application Setup
+
+The reviewed baseline does not yet include a runnable application. Dependency installation, environment configuration, database setup, execution and test commands will be added alongside the corresponding implementation.
+
+For the existing prototype package, switch to `SDP-7-ux-prototype` when that branch is available and follow its `prototype/README.md`.
+
+## Quality and Evaluation
+
+The requirements specification defines acceptance checks for:
+
+- GPA calculation, rounding and missing-data handling.
+- Role, ownership and teacher-assignment restrictions.
+- Agreement between chart values and academic records.
+- Form validation, failed saves and error recovery.
+- Responsive presentation, accessibility and usability.
+
+Local prototype checks cover route reachability, reaction construction and representative browser journeys. They are distinct from application tests and final Figma Present verification. Independent team review is required before the related tasks are closed.
 
 ## Team
 
-| Member | Contribution described in the supplied justification |
+| Team member | Responsibilities |
 | --- | --- |
-| Aimaut Bolatkhanuly (`aimautb`) | Frontend, UX prototypes, educational-data visualization; tasks SDP-5, SDP-7, SDP-10 |
-| Rakhat Dosmagambetov | Backend digital-profile module, calculations and API |
-| Damir Ushkempir | Backend/data processing; the Proposal also lists system analysis and QA |
+| **Aimaut Bolatkhanuly** (`aimautb`) | Frontend development, UX prototyping, educational-data visualization; SDP-5, SDP-7 and SDP-10 |
+| **Rakhat Dosmagambetov** | Digital-profile backend, calculations and API development |
+| **Damir Ushkempir** | Data processing and backend development; system analysis and quality assurance |
 
-Academic supervisor: **Gulzhan Soltan**. Final division of Damir's responsibilities should be reconciled in project planning. Personal contact details and GPA from the justification are intentionally excluded from repository documentation.
+**Academic supervisor:** Gulzhan Soltan
 
-## Validation and contribution
+## Contribution Workflow
 
-Requirements define observable checks for GPA correctness, authorization, visualization consistency and usability. These checks are a future implementation/evaluation plan, not a passing test report. For documentation changes, verify relative links, Markdown formatting, source provenance and task isolation with `git diff --check` and a branch diff.
+Use a dedicated branch for each YouTrack task, include its identifier in commit messages, and submit changes through a pull request for review. Keep requirements, prototype and repository-organization changes scoped to their owning tasks.
 
-Use one task branch per deliverable, task-prefixed commits and a pull request with a concise validation note. See [CONTRIBUTING.md](CONTRIBUTING.md). No license has been selected in the reviewed repository; do not infer a reuse license from public visibility.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch conventions, documentation checks and publication procedures. Pull requests use the [review template](.github/pull_request_template.md).
 
-## SDP-10 acceptance status
+Credentials, private source documents and real student records must remain outside the repository. An owner must confirm appropriate repository access for every team member before the repository-setup task is accepted.
 
-The README, contribution workflow and ignore rules are prepared locally. Task IDs in branch names, commit messages and linked documents provide manual YouTrack traceability. Before closing SDP-10, an owner must verify access for Aimaut, Rakhat and Damir, the branch must be published to the agreed remote, and another team member must review the changes. Never grant access to a guessed GitHub username.
+## License
+
+A project license has not yet been selected.
