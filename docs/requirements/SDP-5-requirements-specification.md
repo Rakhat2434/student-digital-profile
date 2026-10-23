@@ -45,6 +45,10 @@ Private source documents are referenced by filename, not copied into Git. Contac
 
 ## 3. Actors and permission boundaries
 
+Students, teachers and administrators are direct users. The academic supervisor approves project scope and grading assumptions; the project team maintains requirements and implementation; the institution/data owner would authorize any future use of institutional records. These stakeholders are not additional application roles.
+
+Priority definitions: **Must** is required for the proposed MVP; **Should** is a desirable enhancement that does not block the baseline; **Could** is optional future work. Deferred scope is not silently treated as mandatory.
+
 | Capability | Student | Teacher | Administrator |
 | --- | --- | --- | --- |
 | View basic profile | Own only | Assigned student context | Administrative support context |
@@ -77,6 +81,8 @@ Authorization must be enforced by the server on list, detail, aggregate and atta
 | FR-12 | Must | Configure grading rules | The configuration names scale/version and validates mappings; recalculation uses the recorded policy version, not an undocumented client formula |
 | FR-13 | Must | Recover from empty and failed requests | Empty datasets offer an explanation; failures offer retry; form failures preserve entered values and do not claim successful saving |
 | FR-14 | Should | Provide traceability for academic edits | Result changes record actor, time, previous value and new value; the UI can show when results were updated |
+
+| FR-15 | Must | Create and maintain a student profile through authorized administration | Creating a test student account with a unique student ID creates exactly one linked profile. An authorized administrator can correct programme/group metadata; duplicate IDs and invalid references are rejected without partial writes. Students cannot change their institutional ID or academic results through profile fields. |
 
 ### Main use cases
 
@@ -149,8 +155,7 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 | NFR-05 | Must | Accessibility | Target WCAG 2.2 AA; keyboard access, visible focus, labels, non-colour status and chart data alternatives; verify at implementation stage |
 | NFR-06 | Must | Responsive presentation | Core student flow remains usable at 390, 768 and 1440 px; no page-wide overflow; tables may use a labelled internal scroll region |
 | NFR-07 | Must | Reliability | Failed saves do not corrupt data; duplicate requests do not duplicate results; empty and unavailable values remain distinguishable from zero |
-| NFR-08 | Must | Maintainability | Trace FR IDs through UX, API contract and tests; document environment and setup only when runnable code exists |
-
+| NFR-08 | Must | Maintainability | At implementation review, every Must FR has at least one linked test case and API/UI owner; the documented setup succeeds in a clean supported environment. Record commands and results once runnable code exists |
 | NFR-09 | Should | Scalability | With the same recorded hardware and query mix as NFR-03, compare 1,000 and 10,000 synthetic students at 20 concurrent sessions; target p95 dashboard response ≤ 2 s, zero cross-user leakage and no lost updates. Record query plans and bottlenecks; this is a proposed benchmark, not a measured capacity claim. |
 
 ## 8. Requirement-to-verification traceability
@@ -158,7 +163,7 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 | Test ID | Requirements | Evidence to collect |
 | --- | --- | --- |
 | AT-01 | FR-01, FR-02, NFR-01 | Login/logout and direct-request authorization tests for each role |
-| AT-02 | FR-03, FR-04 | Stored fixture versus profile/semester table comparison |
+| AT-02 | FR-03, FR-04, FR-15 | Create one account/profile, reject a duplicate ID, update authorized metadata, reject student edits to protected fields, and compare stored fixtures with profile/semester views |
 | AT-03 | FR-05, FR-06, FR-12, NFR-02 | GPA fixtures, invalid-input rejection and recalculation after edit |
 | AT-04 | FR-07, NFR-02, NFR-05 | Chart values versus table; keyboard and text alternative inspection |
 | AT-05 | FR-08, FR-09, NFR-01 | Own achievement lifecycle and unauthorized attachment request |
@@ -181,3 +186,18 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 - [ ] Validate requirements with representative students and teachers.
 
 Completing this document does not close SDP-5 automatically. Approval and implementation verification remain separate steps.
+
+## 10. SDP-5 task acceptance review
+
+Checked against the authenticated YouTrack card on 23 October 2026.
+
+| Task criterion | Evidence | Status |
+| --- | --- | --- |
+| Functional and non-functional requirements documented | Sections 4 and 7 | Prepared |
+| Each requirement has a unique identifier and priority | FR-01–FR-15; NFR-01–NFR-09 | Prepared |
+| Mandatory requirements have testable criteria | Requirement rows, GPA fixtures and AT-01–AT-09 | Prepared for review |
+| Requirements align with project scope | Sections 1–2; D-01–D-06 explicitly identify unresolved source conflicts | Team agreement pending |
+| Uploaded to GitHub under docs/ | This file on the SDP-5 branch | Publication pending |
+| Reviewed by another team member | Reviewer name and review link not yet recorded | Pending |
+
+Task completion concerns the reviewed specification. Passing production tests and completing a usability study are later implementation/evaluation activities, not evidence that has already been obtained. The independent reviewer must confirm the proposed scope and measurement targets before acceptance.
