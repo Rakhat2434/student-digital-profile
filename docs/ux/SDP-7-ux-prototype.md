@@ -4,15 +4,18 @@
 
 Author: Aimaut Bolatkhanuly (`aimautb`) · 23 October 2026
 
-Status: **Editable prototype created; visual QA and stakeholder validation pending**
+
 
 Task: [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7)
 
-## 1. Open the deliverable
+## 1. Current deliverable
 
-**Revision 03:** [Local Figma prototype builder](figma-prototype/README.md) packages 41 screens and 288 linked actions. It is ready for local installation and includes a browser-tested interaction preview. The cloud Figma file has not been updated; Desktop execution and final Present verification remain pending.
+The current package contains 41 screens and 288 predefined transitions. See the [current screen inventory and acceptance matrix](../../prototype/acceptance-review.md), [interactive preview](figma-prototype/preview.html), and [installation guide](figma-prototype/README.md). Local Figma setup was reported complete by the owner; verification of the installed page in Present is still pending.
 
-**Revision 02:** [Five redesigned screens with SVG import files and reviewed PNGs](redesign/README.md). Prepared locally in response to the redesign request; the Figma file below remains revision 01 until connector editing is available.
+The node-specific links below refer to the original 13-screen revision, not verified revision-03 node IDs.
+
+
+
 
 - [Editable Figma design](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC)
 - [Student overview](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC?node-id=4-993)
@@ -43,7 +46,7 @@ The signature is the **semester evidence panel**: GPA and earned credits sit alo
 
 Manrope gives headings a clear, compact voice; IBM Plex Sans supports dense records and form labels. Slate-blue text, cool paper surfaces and a restrained teal accent preserve a serious academic tone. Cards group related tasks; they do not turn every line of content into a separate box.
 
-## 4. Screen inventory
+## 4. Original revision-01 screen inventory (historical)
 
 | ID | Screen | Role / purpose | Requirements |
 | --- | --- | --- | --- |
@@ -63,7 +66,9 @@ Manrope gives headings a clear, compact voice; IBM Plex Sans supports dense reco
 
 Desktop frames are 1440 px wide with content-driven height; the mobile frame is 390 px. Screen names and exact node IDs are stored in `figma-state.json`.
 
-## 5. Prototype walkthroughs
+## 5. Original revision-01 walkthroughs (historical)
+
+For the current 41-screen package, follow the [revision-03 demonstration](../../prototype/README.md#five-minute-demonstration). In revision 03, the saved achievement has an updated list, grade correction changes A to B with GPA 3.23, and mobile navigation has separate linked screens. The older walkthroughs below describe only the original Figma revision.
 
 ### Student: inspect progress
 
@@ -146,8 +151,9 @@ The proposed target is four of five participants completing the progress task wi
 - [ ] Complete visual screenshot review after Figma tool access is available.
 - [ ] Verify screen bounds, typography, prototype links and mobile composition in Figma Present.
 - [ ] Review role permissions and remaining admin workflow with the team.
-- [ ] Run participant sessions and reconcile the actual SDP-7 YouTrack acceptance criteria.
+- [x] Read the authenticated SDP-7 criteria and document the evidence matrix.
+- [ ] Verify the installed Figma revision and resolve scope gaps in the acceptance matrix.
+- [ ] Publish prototype/ and obtain independent team review.
+- [ ] Run the proposed participant sessions as a subsequent usability evaluation; these are not stated as a separate SDP-7 task acceptance criterion.
 
-**Prepared review comment:** “SDP-7 adds the editable Student Digital Profile prototype, 13 screen states, student/teacher walkthroughs, a mobile overview and design/behaviour documentation. The sample GPA is aligned with SDP-5. Final visual QA is pending because the Figma Starter tool limit blocked the verification calls; administrative mutations and real data persistence are outside this prototype.”
-
-This comment is a local draft for review; it has not been posted to GitHub or YouTrack.
+Current review evidence and remaining acceptance gates are maintained in [prototype/acceptance-review.md](../../prototype/acceptance-review.md).
