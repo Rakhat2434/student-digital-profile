@@ -85,3 +85,19 @@ The SDP-7 strict static design audit reported no findings on the documentation-o
 **Prepared review comment:** “SDP-10 replaces the placeholder README with the project overview, scoped MVP, technology direction, team contributions and real setup instructions. It adds a documentation index, contribution guide and PR template. Other task documents remain in their own branches; the guide records source conflicts and the exact repository state. No application implementation, deployment or completed usability study is claimed.”
 
 The comment is saved locally for review and has not been posted to GitHub or YouTrack.
+
+## 6. Final consolidation gate
+
+Per the project owner's decision, SDP-10 remains a draft until the team's YouTrack deliverables are completed and reviewed. The short root README follows the supplied DalaSu example in organization only; its implementation claims and commands are not reused.
+
+Before finalizing SDP-10:
+
+- [ ] Check the relevant team tasks and independent reviews in YouTrack.
+- [ ] Inspect the integrated repository tree and agreed remote.
+- [ ] Reconcile scope, stack and team responsibilities with the accepted documents.
+- [ ] Replace cross-branch references with verified links to integrated documents.
+- [ ] Confirm the installed Figma revision and prototype link.
+- [ ] Add only directory entries and setup/test commands verified against the actual project.
+- [ ] Confirm team access and obtain an independent review of SDP-10.
+
+This defers finalization; it does not schedule automatic monitoring or mark any task complete.
