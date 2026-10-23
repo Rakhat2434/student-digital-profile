@@ -6,6 +6,8 @@ This contract specifies future implementation behaviour. Figma demonstrates sele
 
 ## Canonical ownership
 
+The revision 03 local preview adds a native HTML select for the reviewer-only screen chooser. Its platform popup, keyboard interaction and geometry are intentionally accepted; this is not the product's semester control. `docs/ux/figma-prototype/audit-config.json` records this native ownership for the preview scope. Plugin-panel buttons use explicit actions and disabled busy states. These utilities do not change the product's future runtime contracts below.
+
 | Capability | Design owner | Future runtime owner | Verification |
 | --- | --- | --- | --- |
 | Buttons/navigation | Shared library instances with SDP overrides | Shared Button / navigation primitives | Pointer, keyboard, focus and selected states |

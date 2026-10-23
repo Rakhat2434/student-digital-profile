@@ -1,0 +1,9 @@
+{
+  "screens": 41,
+  "interactions": 288,
+  "route_and_runtime_contract_tests": "passed with test adapter",
+  "browser_preview_tests": "passed in headless Chrome",
+  "static_audit": "passed with preview-native-select ownership",
+  "figma_desktop_execution": "not performed",
+  "cloud_file_updated": false
+}

@@ -10,6 +10,8 @@ Task: [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7)
 
 ## 1. Open the deliverable
 
+**Revision 03:** [Local Figma prototype builder](figma-prototype/README.md) packages 41 screens and 288 linked actions. It is ready for local installation and includes a browser-tested interaction preview. The cloud Figma file has not been updated; Desktop execution and final Present verification remain pending.
+
 **Revision 02:** [Five redesigned screens with SVG import files and reviewed PNGs](redesign/README.md). Prepared locally in response to the redesign request; the Figma file below remains revision 01 until connector editing is available.
 
 - [Editable Figma design](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC)
