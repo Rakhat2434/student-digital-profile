@@ -12,7 +12,7 @@ Task: [SDP-5](https://student-digital-profile.youtrack.cloud/issue/SDP-5)
 
 The project is a web-based information system that combines student academic records, calculated indicators and selected achievements into one digital profile. Students inspect their progress; teachers maintain results for assigned courses; administrators manage accounts, assignments and grading configuration.
 
-This is a requirements baseline, not a claim that the application is implemented. Detailed YouTrack descriptions and acceptance criteria were not accessible during preparation; task titles and ownership come from the supplied screenshot.
+This is a requirements baseline, not a claim that the application is implemented. The authenticated SDP-5 description and acceptance criteria were verified on 23 October 2026. They require identified and prioritized requirements, measurable mandatory criteria, publication under docs/, and review by another team member. Publication and independent review remain pending.
 
 | Source | Used for |
 | --- | --- |
@@ -59,7 +59,7 @@ Authorization must be enforced by the server on list, detail, aggregate and atta
 
 ## 4. Functional requirements and acceptance criteria
 
-`Must` denotes the proposed MVP baseline. `Should` is a proposed quality enhancement. Acceptance checks below are authored for review, not copied from inaccessible YouTrack cards.
+`Must` denotes the proposed MVP baseline. `Should` is a proposed quality enhancement. The detailed product acceptance checks below are authored for team review and implement the task-level requirement for measurable criteria.
 
 | ID | Priority | Requirement | Observable acceptance criterion |
 | --- | --- | --- | --- |
@@ -140,16 +140,18 @@ Store raw grades and credits independently from derived indicators. Expose fresh
 
 The numerical targets below are **proposed test targets** to align with SDP-8, not measured results.
 
-| ID | Requirement | Measurement / acceptance target |
-| --- | --- | --- |
-| NFR-01 | Security and privacy | All negative role/ownership cases in section 8 pass; no credentials, real student data or secrets committed |
-| NFR-02 | Calculation correctness | All approved GPA fixtures pass exactly before display rounding; chart/table reconciliation has zero mismatches |
-| NFR-03 | Performance | On a recorded local/demo environment with 1,000 synthetic students and 20 concurrent sessions, p95 profile/dashboard API response ≤ 1 s; record hardware, dataset and cache conditions |
-| NFR-04 | Usability | Proposed moderated test with 5 participants: at least 4 complete own-progress and result-inspection tasks without assistance; record completion time and errors |
-| NFR-05 | Accessibility | Target WCAG 2.2 AA; keyboard access, visible focus, labels, non-colour status and chart data alternatives; verify at implementation stage |
-| NFR-06 | Responsive presentation | Core student flow remains usable at 390, 768 and 1440 px; no page-wide overflow; tables may use a labelled internal scroll region |
-| NFR-07 | Reliability | Failed saves do not corrupt data; duplicate requests do not duplicate results; empty and unavailable values remain distinguishable from zero |
-| NFR-08 | Maintainability | Trace FR IDs through UX, API contract and tests; document environment and setup only when runnable code exists |
+| ID | Priority | Requirement | Measurement / acceptance target |
+| --- | --- | --- | --- |
+| NFR-01 | Must | Security and privacy | All negative role/ownership cases in section 8 pass; no credentials, real student data or secrets committed |
+| NFR-02 | Must | Calculation correctness | All approved GPA fixtures pass exactly before display rounding; chart/table reconciliation has zero mismatches |
+| NFR-03 | Must | Performance | On a recorded local/demo environment with 1,000 synthetic students and 20 concurrent sessions, p95 profile/dashboard API response ≤ 1 s; record hardware, dataset and cache conditions |
+| NFR-04 | Must | Usability | Proposed moderated test with 5 participants: at least 4 complete own-progress and result-inspection tasks without assistance; record completion time and errors |
+| NFR-05 | Must | Accessibility | Target WCAG 2.2 AA; keyboard access, visible focus, labels, non-colour status and chart data alternatives; verify at implementation stage |
+| NFR-06 | Must | Responsive presentation | Core student flow remains usable at 390, 768 and 1440 px; no page-wide overflow; tables may use a labelled internal scroll region |
+| NFR-07 | Must | Reliability | Failed saves do not corrupt data; duplicate requests do not duplicate results; empty and unavailable values remain distinguishable from zero |
+| NFR-08 | Must | Maintainability | Trace FR IDs through UX, API contract and tests; document environment and setup only when runnable code exists |
+
+| NFR-09 | Should | Scalability | With the same recorded hardware and query mix as NFR-03, compare 1,000 and 10,000 synthetic students at 20 concurrent sessions; target p95 dashboard response ≤ 2 s, zero cross-user leakage and no lost updates. Record query plans and bottlenecks; this is a proposed benchmark, not a measured capacity claim. |
 
 ## 8. Requirement-to-verification traceability
 
@@ -162,7 +164,7 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 | AT-05 | FR-08, FR-09, NFR-01 | Own achievement lifecycle and unauthorized attachment request |
 | AT-06 | FR-10, FR-11 | Teacher scope before/after assignment change, preserved filters |
 | AT-07 | FR-13, NFR-07 | Empty semester, disconnected request, rejected save and retry |
-| AT-08 | NFR-03 | Reproducible performance report with p50/p95 and environment |
+| AT-08 | NFR-03, NFR-09 | Reproducible performance report with p50/p95 and environment |
 | AT-09 | NFR-04, NFR-05, NFR-06 | Moderated usability notes, responsive and accessibility checks |
 
 ## 9. Review checklist
@@ -171,7 +173,10 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 - [x] Document functional requirements with stable identifiers and observable checks.
 - [x] Specify calculation examples, invalid data and missing-data behaviour.
 - [x] Record source conflicts and unapproved policies explicitly.
-- [ ] Reconcile D-01–D-06 with the team/supervisor and YouTrack acceptance criteria.
+- [x] Read and reconcile the SDP-5 task-level YouTrack criteria.
+- [ ] Resolve D-01–D-06 with the team/supervisor.
+- [ ] Publish this branch to the agreed GitHub repository under docs/.
+- [ ] Obtain review from another team member and record the review link.
 - [ ] Agree NFR measurement targets with the owner of SDP-8.
 - [ ] Validate requirements with representative students and teachers.
 
