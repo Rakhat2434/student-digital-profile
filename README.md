@@ -49,7 +49,7 @@ Aimaut's deliverables are isolated in local task branches and have not been merg
 | [SDP-7 · UX / Prototype](https://student-digital-profile.youtrack.cloud/issue/SDP-7) | `SDP-7-ux-prototype` | `docs/ux/SDP-7-ux-prototype.md`, `DESIGN.md`, `UX-CONTRACT.md` and Figma |
 | [SDP-10 · GitHub README & Repository Structure](https://student-digital-profile.youtrack.cloud/issue/SDP-10) | `SDP-10-github-readme-repository-structure` | This README, documentation index and repository contribution conventions |
 
-The Figma file contains 13 editable screens and predefined prototype journeys. Final screenshot/structural verification was blocked by the Figma Starter tool limit. It is a design deliverable, not a deployed application. Detailed YouTrack card descriptions were inaccessible; acceptance criteria in the authored documents remain proposed for team review.
+The Figma file contains 13 editable screens and predefined prototype journeys. Final screenshot/structural verification was blocked by the Figma Starter tool limit. It is a design deliverable, not a deployed application. The SDP-5, SDP-7 and SDP-10 descriptions were checked in authenticated YouTrack on 23 October 2026. SDP-7 also has a local 41-screen / 288-transition redesign package on its branch; installation in Figma remains pending. All three tasks require independent team review. Repository access for each team member must still be verified by an owner; it is not implied by a local clone.
 
 ## Technology direction
 
@@ -74,6 +74,7 @@ Files present on **this SDP-10 branch**:
 ```text
 student-digital-profile/
 ├── README.md
+├── .gitignore
 ├── CONTRIBUTING.md
 ├── .github/
 │   └── pull_request_template.md
@@ -129,3 +130,7 @@ Academic supervisor: **Gulzhan Soltan**. Final division of Damir's responsibilit
 Requirements define observable checks for GPA correctness, authorization, visualization consistency and usability. These checks are a future implementation/evaluation plan, not a passing test report. For documentation changes, verify relative links, Markdown formatting, source provenance and task isolation with `git diff --check` and a branch diff.
 
 Use one task branch per deliverable, task-prefixed commits and a pull request with a concise validation note. See [CONTRIBUTING.md](CONTRIBUTING.md). No license has been selected in the reviewed repository; do not infer a reuse license from public visibility.
+
+## SDP-10 acceptance status
+
+The README, contribution workflow and ignore rules are prepared locally. Task IDs in branch names, commit messages and linked documents provide manual YouTrack traceability. Before closing SDP-10, an owner must verify access for Aimaut, Rakhat and Damir, the branch must be published to the agreed remote, and another team member must review the changes. Never grant access to a guessed GitHub username.
