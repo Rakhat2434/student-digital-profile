@@ -10,6 +10,8 @@ Task: [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7)
 
 ## 1. Open the deliverable
 
+**Revision 02:** [Five redesigned screens with SVG import files and reviewed PNGs](redesign/README.md). Prepared locally in response to the redesign request; the Figma file below remains revision 01 until connector editing is available.
+
 - [Editable Figma design](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC)
 - [Student overview](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC?node-id=4-993)
 - [Student prototype start](https://www.figma.com/proto/hOhNtoHcIS5VW5UfHqD0fC?node-id=4-957)

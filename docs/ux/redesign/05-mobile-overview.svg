@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1100" viewBox="0 0 390 1100" role="img" aria-label="Student overview · mobile">
+<title>Student overview · mobile</title>
+<rect x="0" y="0" width="390" height="1100" rx="0" fill="#F2F5F8"/>
+<rect x="0" y="0" width="390" height="78" rx="0" fill="#FFFFFF"/>
+<rect x="20" y="21" width="34" height="34" rx="9" fill="#176887"/>
+<text x="29" y="45" fill="#FFFFFF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="21" font-weight="700">S</text>
+<text x="66" y="44" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="18" font-weight="650">Student profile</text>
+<circle cx="352" cy="38" r="18" fill="#E8F2F6"/>
+<text x="341" y="43" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">DS</text>
+<text x="20" y="111" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="600">AUTUMN 2026</text>
+<text x="20" y="148" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="28" font-weight="650">Your semester</text>
+<text x="20" y="176" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Dana Sarsen · Software Engineering</text>
+<rect x="20" y="201" width="350" height="155" rx="14" fill="#142C42"/>
+<text x="40" y="230" fill="#C5D5DF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="600">SEMESTER GPA</text>
+<text x="40" y="288" fill="#FFFFFF" font-family="Manrope, Segoe UI, sans-serif" font-size="48" font-weight="650">3.62</text>
+<text x="164" y="286" fill="#C5D5DF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="20" font-weight="400">/ 4.00</text>
+<text x="40" y="329" fill="#C5D5DF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">13 earned credits  ·  3 completed courses</text>
+<rect x="20" y="376" width="350" height="250" rx="12" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="40" y="411" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="18" font-weight="650">Academic trajectory</text>
+<text x="36" y="573.0" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">0.0</text>
+<path d="M74 569.0 L344 569.0" stroke="#D9E2EA" fill="none"/>
+<text x="36" y="540.75" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">1.0</text>
+<path d="M74 536.75 L344 536.75" stroke="#D9E2EA" fill="none"/>
+<text x="36" y="508.5" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">2.0</text>
+<path d="M74 504.5 L344 504.5" stroke="#D9E2EA" fill="none"/>
+<text x="36" y="476.25" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">3.0</text>
+<path d="M74 472.25 L344 472.25" stroke="#D9E2EA" fill="none"/>
+<text x="36" y="444.0" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">4.0</text>
+<path d="M74 440.0 L344 440.0" stroke="#D9E2EA" fill="none"/>
+<path d="M110 469.025 L190.0 460.9625 L306 452.255 L306 569 L110 569 Z" fill="#E8F2F6"/>
+<path d="M110 469.025 L190.0 460.9625 L306 452.255" stroke="#176887" stroke-width="3" fill="none"/>
+<circle cx="110" cy="469.025" r="7" fill="#FFFFFF"/>
+<circle cx="110" cy="469.025" r="4" fill="#176887"/>
+<text x="94" y="452.025" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">3.10</text>
+<text x="74" y="594" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Spring 2025</text>
+<circle cx="190.0" cy="460.9625" r="7" fill="#FFFFFF"/>
+<circle cx="190.0" cy="460.9625" r="4" fill="#176887"/>
+<text x="174.0" y="443.9625" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">3.35</text>
+<text x="154.0" y="594" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Autumn 2025</text>
+<circle cx="306" cy="452.255" r="7" fill="#FFFFFF"/>
+<circle cx="306" cy="452.255" r="4" fill="#176887"/>
+<text x="290" y="435.255" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">3.62</text>
+<text x="270" y="594" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Autumn 2026</text>
+<text x="20" y="669" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="21" font-weight="650">Course results</text>
+<rect x="20" y="690" width="350" height="84" rx="10" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="36" y="718" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="600">Software architecture</text>
+<text x="36" y="748" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">5 credits</text>
+<rect x="267" y="729" width="86" height="28" rx="14" fill="#E8F2F6"/>
+<text x="279" y="748" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">A · 4.00</text>
+<rect x="20" y="788" width="350" height="84" rx="10" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="36" y="816" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="600">Database systems</text>
+<text x="36" y="846" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">5 credits</text>
+<rect x="267" y="827" width="86" height="28" rx="14" fill="#E8F2F6"/>
+<text x="279" y="846" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">B · 3.00</text>
+<rect x="20" y="886" width="350" height="84" rx="10" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="36" y="914" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="600">Research methods</text>
+<text x="36" y="944" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">3 credits</text>
+<rect x="267" y="925" width="86" height="28" rx="14" fill="#E8F2F6"/>
+<text x="279" y="944" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">A · 4.00</text>
+<text x="20" y="1008" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Fictional data · Test grading policy v1</text>
+<rect x="0" y="1030" width="390" height="70" rx="0" fill="#FFFFFF"/>
+<path d="M0 1030 L390 1030" stroke="#D9E2EA" fill="none"/>
+<path transform="translate(48 1041)" d="M2 2h7v7H2z M13 2h7v7h-7z M2 13h7v7H2z M13 13h7v7h-7z" stroke="#176887" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="38" y="1082" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">Overview</text>
+<path transform="translate(177 1041)" d="M4 2h14v18H4z M8 7h6 M8 11h6 M8 15h4" stroke="#526779" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="167" y="1082" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">Records</text>
+<path transform="translate(298 1041)" d="M11 2a6 6 0 1 0 0 12a6 6 0 1 0 0-12 M7 13l-2 8 6-3 6 3-2-8" stroke="#526779" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="288" y="1082" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="400">Achievements</text>
+</svg>

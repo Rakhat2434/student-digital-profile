@@ -1,0 +1,46 @@
+{
+  "figma_updated": false,
+  "blocker": "Figma Starter MCP tool call limit",
+  "boards": [
+    {
+      "file": "01-overview.svg",
+      "width": 1440,
+      "height": 1024,
+      "text_nodes": 81,
+      "raster_images": 0,
+      "render_visually_reviewed": true
+    },
+    {
+      "file": "02-academic-records.svg",
+      "width": 1440,
+      "height": 1024,
+      "text_nodes": 58,
+      "raster_images": 0,
+      "render_visually_reviewed": true
+    },
+    {
+      "file": "03-achievements.svg",
+      "width": 1440,
+      "height": 1024,
+      "text_nodes": 48,
+      "raster_images": 0,
+      "render_visually_reviewed": true
+    },
+    {
+      "file": "04-teacher-workspace.svg",
+      "width": 1440,
+      "height": 1024,
+      "text_nodes": 57,
+      "raster_images": 0,
+      "render_visually_reviewed": true
+    },
+    {
+      "file": "05-mobile-overview.svg",
+      "width": 390,
+      "height": 1100,
+      "text_nodes": 36,
+      "raster_images": 0,
+      "render_visually_reviewed": true
+    }
+  ]
+}
