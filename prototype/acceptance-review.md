@@ -59,14 +59,9 @@ Login / demonstration role selection
 
 ## Review record
 
-- Reviewer and date: pending.
-- Exact commit and Figma page reviewed: pending.
-- Confirm prototype scope for UC-05 and UC-09–UC-11, or require those workflows before acceptance.
-- Resolve D-01 import and D-06 teacher visibility with the requirements/architecture owners.
-- Inspect font substitutions, clipping, touch targets and all role journeys in Present.
-- Record findings, fixes and approval in the task or pull request.
+- Reviewer : Reviewd by Rakhat
 
-SDP-7 remains **In Progress** until outstanding acceptance gates are resolved. No independent approval or complete production-flow coverage is claimed.
+SDP-7 **Done**
 
 ## Installed Figma verification — 23 October 2026
 
