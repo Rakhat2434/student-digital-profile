@@ -38,7 +38,7 @@ CSV/Excel import is **not settled**: the proposal places it in future scope, arc
 
 | Member | Responsibility |
 | --- | --- |
-| Aimaut Bolatkhanuly (`aimautb`) | Frontend, UX prototype and academic visualisation |
+| Aimaut Bolatkhanuly | Frontend, UX prototype and academic visualisation |
 | Rakhat Dosmagambetov | Digital-profile backend, calculations and API |
 | Damir Ushkempir | System analysis and QA in the proposal; data processing and backend in the team justification |
 | Gulzhan Soltan | Academic supervisor |
