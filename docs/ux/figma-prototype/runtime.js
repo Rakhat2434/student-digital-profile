@@ -1,5 +1,5 @@
 /* Offline Figma plugin. Changes only a newly created page. */
-figma.showUI(__html__, { width: 420, height: 360 });
+figma.showUI(__html__, { width: 480, height: 520 });
 let running = false;
 let completedPage = null;
 const rgb = hex => ({ r: parseInt(hex.slice(1, 3), 16) / 255, g: parseInt(hex.slice(3, 5), 16) / 255, b: parseInt(hex.slice(5, 7), 16) / 255 });
@@ -18,13 +18,14 @@ figma.ui.onmessage = async message => {
     for (const family of ['Manrope', 'IBM Plex Sans']) {
       for (const weight of [400, 500, 600, 650, 700]) {
         const preferred = weight >= 600 ? ['SemiBold', 'Semi Bold', 'Bold', 'Medium', 'Regular'] : weight >= 500 ? ['Medium', 'Regular'] : ['Regular'];
-        chosen[family + weight] = preferred.map(style => fonts.find(f => f.family === family && f.style === style)).find(Boolean) || { family: 'Inter', style: weight >= 600 ? 'Semi Bold' : 'Regular' };
+        chosen[family + weight] = preferred.map(style => fonts.find(f => f.family === family && f.style === style)).find(Boolean);
+        if (!chosen[family + weight]) throw new Error('Required product font is unavailable: ' + family);
       }
     }
     const unique = new Map(Object.values(chosen).map(font => [JSON.stringify(font), font]));
     await Promise.all(Array.from(unique.values()).map(font => figma.loadFontAsync(font)));
     page = figma.createPage();
-    page.name = 'SDP-7 · Interactive revision 03';
+    page.name = 'SDP-7 · Interactive revision ' + PROTOTYPE.version;
     await figma.setCurrentPageAsync(page);
     const frames = {};
     let count = 0;
@@ -70,10 +71,38 @@ figma.ui.onmessage = async message => {
       }
     }
     page.flowStartingPoints = Object.entries(PROTOTYPE.starts).map(([name, key]) => ({ name, nodeId: frames[key].id }));
+    // Read every reaction back from the actual Figma document, not the input JSON.
+    const results = [], errors = [];
+    for (const screen of PROTOTYPE.screens) {
+      const source = frames[screen.key];
+      const hits = source.children.filter(n => n.name.startsWith('Action · '));
+      if (hits.length !== screen.links.length) errors.push(screen.key + ': hotspot count mismatch');
+      screen.links.forEach((item, i) => {
+        const hit = hits[i], reaction = hit && hit.reactions[0];
+        const actions = reaction && (reaction.actions || (reaction.action ? [reaction.action] : []));
+        const target = actions && actions[0];
+        const passed = !!(hit && reaction && reaction.trigger.type === 'ON_CLICK' && target &&
+          target.type === 'NODE' && target.navigation === 'NAVIGATE' && target.destinationId === frames[item.to].id &&
+          hit.x === item.x && hit.y === item.y && hit.width === item.w && hit.height === item.h);
+        results.push({screen:screen.key, index:i, label:item.label, to:item.to, hotspotId:hit && hit.id,
+          destinationId:target && target.destinationId, passed});
+        if (!passed) errors.push(screen.key + ': ' + item.label);
+      });
+      for (const text of source.children.filter(n => n.type === 'TEXT')) {
+        if (!['Manrope', 'IBM Plex Sans'].includes(text.fontName.family)) errors.push(screen.key + ': wrong product font');
+        if (text.x + text.width > source.width + 1 || text.y + text.height > source.height + 1) errors.push(screen.key + ': clipped text ' + text.name);
+      }
+    }
+    if (errors.length) throw new Error('Native audit failed: ' + errors.slice(0, 8).join('; '));
+    const audit = {version:PROTOTYPE.version, pageId:page.id, fileKey:figma.fileKey || null,
+      verifiedAt:new Date().toISOString(), method:'Read-back of every created Figma reaction, target and hotspot bounds; this is not a claim of individual Present clicks.',
+      screenCount:count, transitionCount:results.length, errors,
+      screens:Object.fromEntries(Object.entries(frames).map(([key,frame])=>[key,frame.id])), results};
+    figma.ui.postMessage({type:'audit', audit});
     figma.currentPage.selection = [frames.login];
     figma.viewport.scrollAndZoomIntoView([frames.login]);
     completedPage = page;
-    status('Ready: ' + count + ' screens, ' + interactions + ' linked actions. Close this panel and press Present on the selected login frame.', true);
+    status('Ready: ' + count + ' screens, ' + interactions + ' linked actions. Native reaction audit passed. Page ' + page.id + '. Save the report, then close and press Present.', true);
   } catch (error) {
     // Roll back only the page created by this execution. Existing user pages are untouched.
     await figma.setCurrentPageAsync(previousPage);

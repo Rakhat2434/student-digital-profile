@@ -4,6 +4,8 @@ Source: [YouTrack SDP-7](https://student-digital-profile.youtrack.cloud/issue/SD
 
 ## Current evidence
 
+**Historical revision-03 record.** The current package and open verification gates are recorded in [revision-04-review.md](revision-04-review.md): 85 screens, 686 transitions, with the previously missing achievement editing and administrator workflows added. The native steps below describe only the older revision and must not be reused as revision-04 proof.
+
 The current local package has 41 screens and 288 transitions. Every exported hotspot was clicked in the browser preview without forced clicks and reached its declared destination. Student validation/saving, teacher correction/saving and mobile navigation passed. This proves the browser package's routing, not the installed Figma file or backend behavior.
 
 Revision 03 is installed and its student add/save journey was verified in Figma Present; see the native verification record below. The old node ledger describes revision 01 only.

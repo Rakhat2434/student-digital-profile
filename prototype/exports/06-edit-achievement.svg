@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" role="img" aria-label="Edit achievement">
+<title>Edit achievement</title>
+<rect x="0" y="0" width="1440" height="1024" rx="0" fill="#F2F5F8"/>
+<rect x="0" y="0" width="232" height="1024" rx="0" fill="#FFFFFF"/>
+<path d="M232 0 L232 1024" stroke="#D9E2EA" fill="none"/>
+<rect x="28" y="30" width="38" height="38" rx="10" fill="#176887"/>
+<text x="36" y="55" fill="#FFFFFF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="25" font-weight="700">S</text>
+<text x="78" y="47" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="19" font-weight="650">Student</text>
+<text x="78" y="66" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">digital profile</text>
+<text x="28" y="128" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="10" font-weight="600">WORKSPACE</text>
+<path transform="translate(30 162)" d="M2 2h7v7H2z M13 2h7v7h-7z M2 13h7v7H2z M13 13h7v7h-7z" stroke="#526779" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="64" y="179" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Overview</text>
+<path transform="translate(30 216)" d="M4 2h14v18H4z M8 7h6 M8 11h6 M8 15h4" stroke="#526779" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="64" y="233" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Academic records</text>
+<rect x="16" y="259" width="200" height="44" rx="8" fill="#E8F2F6"/>
+<rect x="16" y="269" width="3" height="24" rx="1" fill="#176887"/>
+<path transform="translate(30 270)" d="M11 2a6 6 0 1 0 0 12a6 6 0 1 0 0-12 M7 13l-2 8 6-3 6 3-2-8" stroke="#176887" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="64" y="287" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Achievements</text>
+<rect x="20" y="744" width="192" height="118" rx="10" fill="#F2F5F8"/>
+<text x="36" y="770" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">A record you can understand</text>
+<text x="36" y="794" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">Every indicator connects</text>
+<text x="36" y="813" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="400">back to your course results.</text>
+<text x="36" y="842" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Demonstration workspace</text>
+<path d="M20 912 L212 912" stroke="#D9E2EA" fill="none"/>
+<circle cx="44" cy="950" r="18" fill="#E8F2F6"/>
+<text x="33" y="955" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">DS</text>
+<text x="74" y="947" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Dana Sarsen</text>
+<text x="74" y="966" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Student account</text>
+<rect x="233" y="0" width="1207" height="80" rx="0" fill="#FFFFFF"/>
+<path d="M232 80 L1440 80" stroke="#D9E2EA" fill="none"/>
+<text x="272" y="47" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Workspace</text>
+<text x="354" y="47" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">/</text>
+<text x="375" y="47" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="500">Achievements</text>
+<rect x="1120" y="26" width="113" height="28" rx="14" fill="#E8F2F6"/>
+<text x="1132" y="45" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">Synthetic data</text>
+<circle cx="1372" cy="40" r="18" fill="#E8F2F6"/>
+<text x="1361" y="45" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="12" font-weight="600">DS</text>
+<text x="272" y="122" fill="#176887" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="600">ACADEMIC YEAR 2026–2027</text>
+<text x="272" y="163" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="30" font-weight="650">Edit achievement</text>
+<text x="272" y="191" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="400">Interactive demonstration · fictional data · no live account changes</text>
+<rect x="1190" y="130" width="210" height="42" rx="8" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="1206" y="157" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Autumn 2026  ∨</text>
+<text x="272" y="994" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Student Digital Profile  /  SDP-7 · Design revision 02</text>
+<text x="1130" y="994" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="11" font-weight="400">Fictional records · No live data</text>
+<rect x="272" y="224" width="750" height="682" rx="12" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="300" y="266" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="22" font-weight="650">Edit achievement</text>
+<text x="300" y="298" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Title</text>
+<rect x="300" y="310" width="694" height="48" rx="8" fill="#F2F5F8" stroke="#D9E2EA"/>
+<text x="316" y="341" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="400">Research poster presentation</text>
+<text x="300" y="382" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Category</text>
+<rect x="300" y="394" width="694" height="48" rx="8" fill="#F2F5F8" stroke="#D9E2EA"/>
+<text x="316" y="425" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="400">Academic achievement</text>
+<text x="300" y="466" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Date</text>
+<rect x="300" y="478" width="694" height="48" rx="8" fill="#F2F5F8" stroke="#D9E2EA"/>
+<text x="316" y="509" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="400">23 October 2026</text>
+<text x="300" y="550" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="600">Description</text>
+<rect x="300" y="562" width="694" height="48" rx="8" fill="#F2F5F8" stroke="#D9E2EA"/>
+<text x="316" y="593" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="15" font-weight="400">Presented a student research poster.</text>
+<text x="300" y="745" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Demo only · Review changes before saving.</text>
+<rect x="300" y="794" width="220" height="42" rx="8" fill="#176887"/>
+<text x="316" y="821" fill="#FFFFFF" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Review and save</text>
+<rect x="544" y="794" width="150" height="42" rx="8" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="560" y="821" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Cancel</text>
+<rect x="1046" y="224" width="354" height="440" rx="12" fill="#E8F2F6"/>
+<text x="1070" y="270" fill="#142C42" font-family="Manrope, Segoe UI, sans-serif" font-size="19" font-weight="650">Before you continue</text>
+<text x="1070" y="307" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Edit your own achievement.</text>
+<text x="1070" y="333" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Certificate remains attached.</text>
+<text x="1070" y="359" fill="#526779" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="13" font-weight="400">Institutional fields stay protected.</text>
+<rect x="1070" y="454" width="304" height="42" rx="8" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="1086" y="481" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Use revised sample</text>
+<rect x="1070" y="518" width="304" height="42" rx="8" fill="#FFFFFF" stroke="#D9E2EA"/>
+<text x="1086" y="545" fill="#142C42" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="14" font-weight="600">Test empty title</text>
+</svg>

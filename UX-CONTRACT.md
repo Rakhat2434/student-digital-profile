@@ -1,12 +1,12 @@
 # UX contract · Student Digital Profile
 
-SDP-7 design handoff · Aimaut Bolatkhanuly (`aimautb`) · 23 October 2026
+SDP-7 design handoff · Aimaut Bolatkhanuly (`aimautb`) · Updated 24 October 2026
 
 This contract specifies future implementation behaviour. Figma demonstrates selected predefined states; it does not implement API requests, authorization, input validation or persistent storage.
 
 ## Canonical ownership
 
-The revision 03 local preview adds a native HTML select for the reviewer-only screen chooser. Its platform popup, keyboard interaction and geometry are intentionally accepted; this is not the product's semester control. `docs/ux/figma-prototype/audit-config.json` records this native ownership for the preview scope. Plugin-panel buttons use explicit actions and disabled busy states. These utilities do not change the product's future runtime contracts below.
+The revision 04 local preview retains a native HTML select for the reviewer-only screen chooser. Its platform popup, keyboard interaction and geometry are intentionally accepted; this is not the product's semester control. `docs/ux/figma-prototype/audit-config.json` records this native ownership for the preview scope. Plugin-panel buttons use explicit actions and disabled busy states. These utilities do not change the product's future runtime contracts below.
 
 | Capability | Design owner | Future runtime owner | Verification |
 | --- | --- | --- | --- |
@@ -28,6 +28,10 @@ There is no existing application code or sibling implementation to reuse in this
 | Sign in | Preserve form size, prevent repeat submit | Role workspace | Generic error; no account enumeration |
 | Change semester | Preserve panel dimensions; cancel stale request | Records and GPA update together | Preserve selected period; clear stale numeric claims; retry |
 | Add achievement | Preserve inputs; save once | Return to owning list with new item and status | Keep inputs; inline error; cancel returns to list |
+| Edit achievement | Keep ownership, date and evidence; validate title | Updated details and owning list | Original entry remains unchanged on validation failure or discard |
+| Create profile | Validate required metadata and unique institutional ID | Restricted Student profile and updated account list | Reject duplicate ID; preserve existing accounts |
+| Change role | Review old/new role and assigned-course scope explicitly | New role with its actual assignments only | Cancel preserves original metadata and role |
+| Activate grading version | Validate range; preview calculation impact | New version without overwriting historical rules | Invalid points or discarded draft leave active version unchanged |
 | Edit result | Validate role/scope and grade policy | Return to assigned list, restore filters, refresh indicators | Original record remains unchanged; conflict asks for reload/review |
 | Revoke assignment | Review affected scope before committing | Subsequent requests use new scope | Keep original assignment on failed mutation |
 
@@ -49,4 +53,4 @@ Target WCAG 2.2 AA in implementation: real links/buttons, visible focus, labels 
 
 ## Deferred capabilities
 
-Role changes, grading policy edits, attachment deletion and production data imports need agreed business rules before interactive implementation. No destructive or privacy-changing operation is simulated as completed in this prototype. Multilingual production copy, dark mode, external integrations and PDF export remain future scope.
+Revision 04 demonstrates role changes, grading drafts and assignment removal using fictional, predefined states with explicit confirmations. Production rules, authorization, retention/deletion policies and import scope still require agreement before implementation. No real account, academic result, attachment or permission is changed by the prototype. Multilingual production copy, dark mode, external integrations and PDF export remain future scope.

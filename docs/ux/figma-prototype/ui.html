@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="ru"><meta charset="utf-8"><style>
 body{font:14px/1.5 system-ui,sans-serif;color:#142c42;margin:24px;background:#fff}h1{font-size:21px;margin:0 0 12px}p{margin:0 0 16px}button{padding:12px 18px;border:1px solid #176887;border-radius:8px;background:#176887;color:white;cursor:pointer;font:inherit}button+button{margin-left:8px;background:white;color:#176887}button:focus-visible{outline:2px solid #176887;outline-offset:3px}button:disabled{opacity:.55;cursor:default}#status{min-height:66px;font-size:12px;margin-top:18px;overflow-wrap:anywhere}
-</style><h1>SDP · Кликабельный прототип</h1><p>Создаст новую страницу с экранами и переходами. Старые страницы останутся на месте. Данные и действия демонстрационные.</p><button id="build" type="button" onclick="startBuild()">Собрать прототип</button><button id="close" type="button" onclick="closePlugin()">Закрыть</button><p id="status" role="status" aria-live="polite">Работает локально, без сети. После сборки нажмите Present в Figma.</p><script>
+</style><h1>SDP · Кликабельный прототип v04</h1><p>Создаст новую страницу с экранами и переходами. Старые страницы останутся на месте. Данные и действия демонстрационные.</p><button id="build" type="button" onclick="startBuild()">Собрать прототип</button><button id="close" type="button" onclick="closePlugin()">Закрыть</button><p id="status" role="status" aria-live="polite">Работает локально, без сети. После сборки нажмите Present в Figma.</p><button id="report" type="button" hidden onclick="saveReport()">Скачать отчёт проверки</button><script>
 const build=document.getElementById('build'),close=document.getElementById('close'),status=document.getElementById('status');
 function startBuild(){build.disabled=true;close.disabled=true;status.textContent='Подготовка…';parent.postMessage({pluginMessage:{type:'build'}},'*');};
 function closePlugin(){parent.postMessage({pluginMessage:{type:'close'}},'*');}
-window.onmessage=event=>{const m=event.data.pluginMessage;if(!m)return;status.textContent=m.text;if(m.type==='error'){build.disabled=false;close.disabled=false;}else if(m.done){close.disabled=false;}};
+let audit=null;
+function saveReport(){if(!audit)return;const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(audit,null,2)],{type:'application/json'}));a.download='sdp7-native-route-audit-v04.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+window.onmessage=event=>{const m=event.data.pluginMessage;if(!m)return;if(m.type==='audit'){audit=m.audit;document.getElementById('report').hidden=false;return;}status.textContent=m.text;if(m.type==='error'){build.disabled=false;close.disabled=false;}else if(m.done){close.disabled=false;}};
 </script></html>

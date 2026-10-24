@@ -47,7 +47,7 @@ def shell(title,active='Overview',role='Student',subtitle='Your academic progres
     b.rect(28,30,38,38,C['accent'],10); b.text(36,55,'S',25,C['white'],700)
     b.heading(78,47,'Student',19); b.text(78,66,'digital profile',12,C['muted'])
     b.text(28,128,'WORKSPACE',10,C['muted'],600)
-    nav=[('Overview','grid'),('Academic records','book'),('Achievements','award')] if role=='Student' else [('Assigned students','person'),('Academic results','book')]
+    nav=[('Overview','grid'),('Academic records','book'),('Achievements','award')] if role=='Student' else [('Accounts','person'),('Assignments','book'),('Grading policy','book'),('Access scope','person')] if role=='Administrator' else [('Assigned students','person'),('Academic results','book')]
     for i,(label,icon) in enumerate(nav):
         y=151+i*54
         if label==active: b.rect(16,y,200,44,C['soft'],8); b.rect(16,y+10,3,24,C['accent'],1)
@@ -58,11 +58,11 @@ def shell(title,active='Overview',role='Student',subtitle='Your academic progres
     b.text(36,794,'Every indicator connects',12,C['muted'])
     b.text(36,813,'back to your course results.',12,C['muted'])
     b.text(36,842,'Demonstration workspace',11,C['accent'])
-    b.line(20,912,212,912); b.circle(44,950,18,C['soft']); b.text(33,955,'DS' if role=='Student' else 'TD',12,C['accent'],600)
-    b.text(74,947,'Dana Sarsen' if role=='Student' else 'Teacher Demo',13,C['ink'],600); b.text(74,966,role+' account',11,C['muted'])
+    b.line(20,912,212,912); b.circle(44,950,18,C['soft']); b.text(33,955,'DS' if role=='Student' else 'AD' if role=='Administrator' else 'TD',12,C['accent'],600)
+    b.text(74,947,'Dana Sarsen' if role=='Student' else 'Admin Demo' if role=='Administrator' else 'Teacher Demo',13,C['ink'],600); b.text(74,966,role+' account',11,C['muted'])
     b.rect(233,0,1207,80); b.line(232,80,1440,80)
     b.text(272,47,'Workspace',13,C['muted']); b.text(354,47,'/',13,C['muted']); b.text(375,47,active,13,C['ink'],500)
-    b.pill(1120,26,'Synthetic data',113); b.circle(1372,40,18,C['soft']); b.text(1361,45,'DS' if role=='Student' else 'TD',12,C['accent'],600)
+    b.pill(1120,26,'Synthetic data',113); b.circle(1372,40,18,C['soft']); b.text(1361,45,'DS' if role=='Student' else 'AD' if role=='Administrator' else 'TD',12,C['accent'],600)
     b.text(272,122,'ACADEMIC YEAR 2026–2027',11,C['accent'],600)
     b.heading(272,163,title,30); b.text(272,191,subtitle,14,C['muted'])
     b.button(1190,130,'Autumn 2026  ∨',210)

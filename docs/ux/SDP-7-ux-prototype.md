@@ -2,7 +2,7 @@
 
 **Student Digital Profile Information System**
 
-Author: Aimaut Bolatkhanuly (`aimautb`) · 23 October 2026
+Author: Aimaut Bolatkhanuly (`aimautb`) · Updated 24 October 2026
 
 
 
@@ -10,7 +10,7 @@ Task: [SDP-7](https://student-digital-profile.youtrack.cloud/issue/SDP-7)
 
 ## 1. Current deliverable
 
-The current package contains 41 screens and 288 predefined transitions. See the [current screen inventory and acceptance matrix](../../prototype/acceptance-review.md), [interactive preview](figma-prototype/preview.html), and [installation guide](figma-prototype/README.md). Revision 03 was observed in the browser editor and its student add/save journey passed in Present. Remaining native checks are recorded in the acceptance matrix.
+Revision 04 contains **85 screens and 686 predefined transitions**, including achievement editing, account/profile creation, metadata/role changes, teacher assignments and versioned grading configuration. See the [current scenario mapping and verification record](../../prototype/revision-04-review.md), [interactive preview](figma-prototype/preview.html), and [installation guide](figma-prototype/README.md). All local hotspots passed individual browser clicks. Native revision-04 evidence remains pending; revision-03 student add/save verification is historical.
 
 The node-specific links below refer to the original 13-screen revision, not verified revision-03 node IDs.
 
@@ -68,7 +68,7 @@ Desktop frames are 1440 px wide with content-driven height; the mobile frame is 
 
 ## 5. Original revision-01 walkthroughs (historical)
 
-For the current 41-screen package, follow the [revision-03 demonstration](../../prototype/README.md#five-minute-demonstration). In revision 03, the saved achievement has an updated list, grade correction changes A to B with GPA 3.23, and mobile navigation has separate linked screens. The older walkthroughs below describe only the original Figma revision.
+For the current 85-screen package, follow the [revision-04 demonstration](../../prototype/README.md#five-minute-demonstration). Revision 04 adds the missing achievement/admin scenarios while retaining the saved achievement list, A-to-B grade correction with GPA 3.23 and mobile navigation. The older walkthroughs below describe only the original Figma revision.
 
 ### Student: inspect progress
 
@@ -96,7 +96,7 @@ For the current 41-screen package, follow the [revision-03 demonstration](../../
 
 Start the separate **Error recovery** flow at S12; **Try again** leads to S03. Use **Mobile overview** for S13. The mobile composition is an inspection frame, not a complete separate mobile journey.
 
-### Prototype limits
+### Original revision-01 prototype limits (historical)
 
 The clickable prototype navigates predefined states. It does not authenticate, accept real typed values, upload files, calculate GPA or persist changes. S06 demonstrates a saved state; returning to S04 restores its initial sample list. Administrative changes and grading-policy editing are intentionally not wired, because their detailed policies require agreement. Loading, focus, hover and blocked-access behaviour are specified below but not all rendered as standalone Figma screens. Do not describe this as a working application or complete production flow coverage.
 
