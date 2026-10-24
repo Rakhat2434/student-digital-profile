@@ -2,7 +2,7 @@
 
 **Project:** Student Digital Profile Information System  
 **YouTrack Task:** SDP-2 — Literature Review  
-**Author:** Damir Ushkempir
+**Author:** Damir Ushkempir  
 **Date:** 2026-10-23
 
 ---
