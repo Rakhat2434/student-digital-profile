@@ -1,9 +1,12 @@
 # Project Management and Risk Assessment
 
-**Project:** Student Digital Profile Information System  
-**YouTrack Task:** SDP-9 — Project Management and Risks  
-**Author:** Damir Ushkempir  
-**Date:** 2026-10-2ң
+**Project:** Student Digital Profile Information System
+
+**YouTrack Task:** [SDP-9 — Project Management and Risks](https://student-digital-profile.youtrack.cloud/issue/SDP-9)
+
+**Author:** Damir Ushkempir
+
+**Date:** 2026-10-24
 
 ## 1. Project Overview
 
@@ -54,7 +57,7 @@ The research documents explain why the proposed system is relevant. The requirem
 
 Some documents can be prepared at the same time. For example, the Literature Review and Existing Systems Comparison do not depend on completed database or interface designs. Other materials need closer coordination. Requirements, use cases, interface screens, and planned tests describe the same functions from different perspectives, so differences between them can create confusion during the defense.
 
-The project calendar is maintained in YouTrack. No calendar dates are reproduced here because the provided task list did not include confirmed deadlines. Progress for this stage is assessed through the quality and consistency of the documents rather than through unverified implementation milestones.
+The project calendar is maintained in [YouTrack](https://student-digital-profile.youtrack.cloud/issues/SDP). At the 24 October 2026 review, SDP-9 has a recorded deadline of 23 October 2026; this is the original task deadline, not a new completion promise. Pre-Defense 1 is dated 24 October 2026 in the verification plan. Later implementation and deployment dates remain to be agreed. Progress for this stage is assessed through document quality and consistency, with review and integration dates recorded separately from original deadlines.
 
 ## 4. Dependencies and Document Consistency
 
