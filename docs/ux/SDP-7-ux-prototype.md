@@ -32,7 +32,7 @@ The file contains native text, auto-layout frames, vector chart elements, button
 
 The interface helps a student answer: **What changed in my academic progress, and which course results explain it?** A teacher needs a short path from an assigned student to a valid result update. An administrator needs a clear view of account roles and assignment boundaries.
 
-The two supplied DOCX files, the SDP-1 proposal and the SDP-4 technology comparison ground this design. Requirement IDs refer to `docs/requirements/SDP-5-requirements-specification.md` in the separate `SDP-5-requirements-specification` branch. That document is intentionally not duplicated into SDP-7.
+The two supplied DOCX files, the SDP-1 proposal and the SDP-4 technology comparison ground this design. Requirement IDs refer to `docs/requirements/05-requirements-specification.md` in the separate `SDP-5-requirements-specification` branch. That document is intentionally not duplicated into SDP-7.
 
 The initial MVP includes authentication, profiles, course results, GPA, achievements and administration. Import, PDF export, advanced competencies, AI recommendations and external university integration are not presented as implemented features. Teacher/adviser terminology and broader profile visibility remain decisions for the team.
 
