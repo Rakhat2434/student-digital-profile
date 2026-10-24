@@ -17,7 +17,7 @@ The system is a web application built as a **three-tier, service-oriented archit
 3. **Data Processing Service** — Python FastAPI service that imports, cleans, transforms and aggregates educational data (CSV/Excel) with Pandas.
 4. **PostgreSQL database** — single source of truth for users, students, courses, grades, achievements, grading rules and calculated indicators.
 
-All communication between components uses **REST over HTTPS with JSON**. Authentication is handled by Auth.js (NextAuth.js) with signed JWT sessions; the same token is verified by the Data Processing Service. The choice of each technology is justified in [technology comparison](../technology-comparison/05-technology-comparison.md).
+All communication between components uses **REST over HTTPS with JSON**. Authentication is handled by Auth.js (NextAuth.js) with signed JWT sessions; the same token is verified by the Data Processing Service. The choice of each technology is justified in [technology comparison](../technology-comparison/04-technology-comparison.md).
 
 Current supplied diagram exports are PNG files in `docs/diagrams/`. Editable PlantUML sources and SVG exports are not present in the inspected repository; the diagram owner needs to supply them before source-based editing can be documented.
 

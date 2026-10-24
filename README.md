@@ -47,7 +47,7 @@ The final implementation ownership should reconcile the proposal and team justif
 
 ## Selected technology direction
 
-The [technology comparison](docs/technology-comparison/05-technology-comparison.md) and [architecture](docs/architecture/07-architecture.md) describe the following choices. They are design decisions, not installed dependencies.
+The [technology comparison](docs/technology-comparison/04-technology-comparison.md) and [architecture](docs/architecture/07-architecture.md) describe the following choices. They are design decisions, not installed dependencies.
 
 | Area | Selected direction |
 | --- | --- |
@@ -67,11 +67,11 @@ The proposed architecture separates the web/core API from the data service and u
 
 - [Documentation index](docs/README.md)
 - [Project proposal and scope](docs/project-proposal/01-proposal.md)
-- [Existing systems comparison](docs/existing-systems-comparison/existing-systems-comparison.md)
-- [Technology comparison](docs/technology-comparison/05-technology-comparison.md)
+- [Existing systems comparison](docs/existing-systems-comparison/03-existing-systems-comparison.md)
+- [Technology comparison](docs/technology-comparison/04-technology-comparison.md)
 - [Requirements](docs/requirements/05-requirements-specification.md)
 - [System architecture and use cases](docs/architecture/07-architecture.md)
-- [Verification and evaluation plan](docs/Verification%20%26%20Evaluation%20Plan/verification-evaluation-plan.md)
+- [Verification and evaluation plan](docs/Verification%20%26%20Evaluation%20Plan/08-verification-evaluation-plan.md)
 - [Prototype entry point and exports](prototype/README.md)
 - [Prototype review notes](prototype/acceptance-review.md)
 - [Repository audit and task status](docs/repository/project-review-2026-10-24.md)

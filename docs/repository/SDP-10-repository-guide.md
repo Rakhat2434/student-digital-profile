@@ -1,6 +1,6 @@
 # SDP-10 repository guide
 
-Updated 24 October 2026. Owner: Aimaut Bolatkhanuly. Status: local documentation complete for review; task acceptance pending.
+Updated 24 October 2026. Owner: Aimaut Bolatkhanuly. Status: documentation published in PR #8; independent review pending.
 
 Task: [SDP-10](https://student-digital-profile.youtrack.cloud/issue/SDP-10/GitHub-README-Repository-Structure).
 
@@ -8,9 +8,9 @@ Task: [SDP-10](https://student-digital-profile.youtrack.cloud/issue/SDP-10/GitHu
 
 The project owner confirmed Rakhat2434/student-digital-profile as the target. The team checkout is D:/diploma/githubOfProject/secondgit/student-digital-profile; the SDP-10 branch is checked out in C:/Users/abola/AppData/Local/Temp/sdp10-acceptance-20261023.
 
-After fetching origin, the reviewed main tip is d39dbb3. It includes proposal, existing-systems comparison, technology decisions, architecture/diagrams and the verification plan. See the [branch and commit audit](project-review-2026-10-24.md).
+After fetching origin, the reviewed main tip is ed0b682. It includes proposal, existing-systems comparison, technology decisions, architecture/diagrams and the verification plan, with the team's latest document renames preserved. See the [earlier branch and commit audit](project-review-2026-10-24.md).
 
-The SDP-10 branch locally merges origin/main, SDP-5 and SDP-7 with the original histories intact. It supplies the root README, documentation index, contribution workflow, PR template, ignore rules and guidance for the future code/config/test directories. Source task branches and remote main were not rewritten.
+The SDP-10 branch merges origin/main, SDP-5 and SDP-7 with the original histories intact. It supplies the root README, documentation index, short team-contribution table, PR template, ignore rules and guidance for the future code/config/test directories. Source task branches and remote main were not rewritten.
 
 ## Acceptance matrix
 
@@ -23,7 +23,7 @@ The authenticated YouTrack criteria were read on 24 October 2026.
 | .gitignore configured | Environment overrides, credentials, keys, dependencies, builds, caches, local databases and private datasets excluded | Checked locally |
 | No committed passwords, keys or confidential data | Local diff/filename/content inspection and synthetic prototype fixtures | No credential values identified by the targeted check; not a complete history-security audit |
 | All team members have appropriate access | Author/merge history establishes contribution, not current permissions; connector permission reads returned 403 | Owner verification pending |
-| GitHub and YouTrack traceability | Task links in README/docs, issue IDs in commits, scoped acceptance updates | Prepared; local commits are not yet published |
+| GitHub and YouTrack traceability | Task links in README/docs, issue IDs in commits, PR links in YouTrack | Published in PRs #8, #9 and #10 |
 | Another team member reviewed changes | No independent review link recorded | Pending |
 
 Setup, startup and application-test instructions are conditional on runnable code in the task itself. There is no application manifest, database migration or runtime to execute yet, so those instructions are explicitly deferred rather than invented.
@@ -38,6 +38,6 @@ Setup, startup and application-test instructions are conditional on runnable cod
 
 ## Handoff
 
-Keep SDP-5, SDP-7 and SDP-10 In Progress while publication/review or functional acceptance gaps remain. Publish/review the owning branches before the final SDP-10 PR, or disclose the branch dependencies in a stacked review. The local consolidation is not evidence of a remote merge.
+Keep SDP-5, SDP-7 and SDP-10 In Progress while independent review or functional acceptance gaps remain. Review the owning PRs #9 and #10 before the consolidated PR #8; its description discloses those dependencies. Consolidation in SDP-10 does not merge the PRs into main.
 
-The project owner requested no GitHub push. No PR, remote branch change or external reviewer request was performed.
+The project owner subsequently authorised commits, pushes and PR creation. The branches are published and all three PRs remain open and unmerged. No external reviewer request was sent.
