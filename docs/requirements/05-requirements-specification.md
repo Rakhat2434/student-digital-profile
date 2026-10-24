@@ -12,7 +12,7 @@ Task: [SDP-5](https://student-digital-profile.youtrack.cloud/issue/SDP-5)
 
 The project is a web-based information system that combines student academic records, calculated indicators and selected achievements into one digital profile. Students inspect their progress; teachers maintain results for assigned courses; administrators manage accounts, assignments and grading configuration.
 
-This is a requirements baseline, not a claim that the application is implemented. The authenticated SDP-5 description and acceptance criteria were verified on 23 October 2026. They require identified and prioritized requirements, measurable mandatory criteria, publication under docs/, and review by another team member. The specification is published in [PR #9](https://github.com/Rakhat2434/student-digital-profile/pull/9); independent team review and the recorded scope decisions remain pending.
+This is a requirements baseline, not a claim that the application is implemented. The authenticated SDP-5 description and acceptance criteria were verified on 23 October 2026. They require identified and prioritized requirements, measurable mandatory criteria, publication under docs/, and review by another team member. The team merged the published specification through [PR #9](https://github.com/Rakhat2434/student-digital-profile/pull/9) on 24 October 2026. This records repository integration; stakeholder confirmation and the recorded scope/policy decisions remain pending.
 
 | Source | Used for |
 | --- | --- |
