@@ -1,103 +1,43 @@
-# SDP-10 · GitHub README & Repository Structure
+# SDP-10 repository guide
 
-Author: Aimaut Bolatkhanuly (`aimautb`) · 23 October 2026
+Updated 24 October 2026. Owner: Aimaut Bolatkhanuly. Status: local documentation complete for review; task acceptance pending.
 
-Status: **Documentation prepared for review**
+Task: [SDP-10](https://student-digital-profile.youtrack.cloud/issue/SDP-10/GitHub-README-Repository-Structure).
 
-Task: [SDP-10](https://student-digital-profile.youtrack.cloud/issue/SDP-10)
+## Repository and history
 
-## 1. Deliverable
+The project owner confirmed Rakhat2434/student-digital-profile as the target. The team checkout is D:/diploma/githubOfProject/secondgit/student-digital-profile; the SDP-10 branch is checked out in C:/Users/abola/AppData/Local/Temp/sdp10-acceptance-20261023.
 
-The root README now explains the diploma project, users, MVP, future scope, technology direction, team, documentation locations and real local setup. A documentation index, contribution guide and PR template establish a clear handoff for the three task branches.
+After fetching origin, the reviewed main tip is d39dbb3. It includes proposal, existing-systems comparison, technology decisions, architecture/diagrams and the verification plan. See the [branch and commit audit](project-review-2026-10-24.md).
 
-These files are scoped to SDP-10. Requirements remain in SDP-5; UX documentation and design contracts remain in SDP-7. `main` and teammates' branches were not changed.
+The SDP-10 branch locally merges origin/main, SDP-5 and SDP-7 with the original histories intact. It supplies the root README, documentation index, contribution workflow, PR template, ignore rules and guidance for the future code/config/test directories. Source task branches and remote main were not rewritten.
 
-## 2. Branch inspection
+## Acceptance matrix
 
-The following snapshot was obtained after `git fetch origin`:
+The authenticated YouTrack criteria were read on 24 October 2026.
 
-| Ref | Commit | Finding |
+| Criterion | Evidence | Status |
 | --- | --- | --- |
-| `origin/main` | `7e04f9e` | Minimal README and organized technology-comparison document |
-| `origin/SDP-1-Project-Proposal-&-Scope` | `5b34023` | Adds `docs/project-proposal/01-proposal.md` |
-| `origin/SDP-2-Literature-Review` | `7e04f9e` | Same tip as baseline; no additional task artifact |
-| `origin/SDP-3-Existing-Systems-Comparison` | `7e04f9e` | Same tip as baseline; no additional task artifact |
-| `origin/SDP-4-technology-comparison` | `bdc635e` | Earlier uploaded technology material; current organized version is in main |
-| `origin/SDP-6` | `9104c87` | Architecture Markdown and three PNG diagrams at root |
-| `origin/SDP-9-Project-Management-&-Risks` | `7e04f9e` | Same tip as baseline; no additional task artifact |
+| README includes required project information | Title, description, problem, users, outcomes, scope, status, team, supervisor, selected stack, links and truthful setup | Prepared |
+| Directories are logically organised | docs/ by topic; prototype/ exports; apps/web/, services/data/, config/ and tests/ contain implementation guidance | Prepared |
+| .gitignore configured | Environment overrides, credentials, keys, dependencies, builds, caches, local databases and private datasets excluded | Checked locally |
+| No committed passwords, keys or confidential data | Local diff/filename/content inspection and synthetic prototype fixtures | No credential values identified by the targeted check; not a complete history-security audit |
+| All team members have appropriate access | Author/merge history establishes contribution, not current permissions; connector permission reads returned 403 | Owner verification pending |
+| GitHub and YouTrack traceability | Task links in README/docs, issue IDs in commits, scoped acceptance updates | Prepared; local commits are not yet published |
+| Another team member reviewed changes | No independent review link recorded | Pending |
 
-The architecture document refers to diagram-source/export paths that are absent from that branch's observed tree; its images are actually at the root. Record this for the SDP-6 owner rather than silently rewriting their work in SDP-10. Its import-as-MVP statement also conflicts with Proposal section 7.2.
+Setup, startup and application-test instructions are conditional on runnable code in the task itself. There is no application manifest, database migration or runtime to execute yet, so those instructions are explicitly deferred rather than invented.
 
-This checkout's configured remote is `https://github.com/Rakhat2434/student-digital-profile.git`. Publication to `digital-profile-diploma-project/student-digital-profile` was not assumed or performed.
+## Scope and consistency findings
 
-## 3. Repository structure decisions
+- Proposal defers CSV/Excel import; architecture labels it MVP; SDP-8 gives it Should priority. Resolve with the requirements/architecture owners.
+- The requirements and SDP-8 traceability tables need an agreed final ID/target mapping.
+- Teacher visibility and certificate storage remain explicit decisions.
+- Current diagram PNG paths are linked correctly. Editable PlantUML sources and SVG diagram exports were not found.
+- The team Figma handoff is revision 03 in hOhNtoHcIS5VW5UfHqD0fC. Earlier cloud-file and installation-pending notices were reconciled with the recorded native verification. Remaining teacher/admin/mobile and administrative-flow gaps are retained.
 
-| Location | Ownership and purpose |
-| --- | --- |
-| `README.md` | Project entry point; concise scope and truthful project status |
-| `CONTRIBUTING.md` | Branch, commit and review conventions |
-| `.github/pull_request_template.md` | Reviewer-facing task, validation and open-decision prompts |
-| `docs/README.md` | Documentation map, including explicit cross-branch locations |
-| `docs/requirements/` | SDP-5 requirements after its branch is merged |
-| `docs/ux/` | SDP-7 prototype, state ledger and review evidence after its branch is merged |
-| `docs/repository/` | SDP-10 repository decisions and research notes |
-| `docs/technology-comparison/` | Existing technology-choice document |
+## Handoff
 
-No code folders were created merely to imply progress. A **proposed future** implementation layout is:
+Keep SDP-5, SDP-7 and SDP-10 In Progress while publication/review or functional acceptance gaps remain. Publish/review the owning branches before the final SDP-10 PR, or disclose the branch dependencies in a stacked review. The local consolidation is not evidence of a remote merge.
 
-```text
-apps/web/               # Next.js UI and core API
-services/data/          # FastAPI data-processing service
-docs/api/              # Agreed API contracts when available
-tests/                 # Cross-service acceptance/integration checks
-infra/                 # Local/deployment configuration when implemented
-```
-
-This is a proposal for the backend/architecture owners, not an existing structure or a final architecture decision. Keep app-specific tests close to their implementation; use the top-level test directory only for cross-service scenarios. Choose one owner for database migrations before introducing two ORM stacks.
-
-## 4. Comparable public repositories reviewed
-
-References were used to study documentation organization. They are not substitutes for this project's requirements, verified implementations or university policies. No source code or README prose was copied.
-
-| Repository / source | Relevance | Lesson applied here | Boundary |
-| --- | --- | --- | --- |
-| [StudentPortfolio README](https://github.com/sayedalimohamad/studentPortfolio/blob/main/README.md) | Student portfolios, supervisors, roles and file evidence | Explain users, role-specific capabilities and technology responsibilities | Its AI assistant, events and collaboration features are not added to our MVP |
-| [Acadion Academic Dashboard README](https://github.com/natasyaruilla/academic-dashboard/blob/main/README.md) | Academic capstone workflow with student/admin interfaces | Separate project description, user features, repository structure and team contributions | Its capstone-team/worksheet workflow differs from our GPA/profile scope |
-| [Student results dashboard](https://github.com/neromtoobad/student-results-dashboard) | Academic indicators, period-based results and sample data | Make numerical inputs, credit meaning and demo data visible in requirements | Its grading bands and import workflow are not adopted as university policy |
-
-The first two READMEs were read through the GitHub connector. The third was inspected through web search results and is a supplementary reference, not a reviewed implementation. A separate search result for Student-E-Portfolio returned no accessible root README; no claims are based on it.
-
-## 5. Review and validation
-
-Documentation checks: Markdown whitespace, relative-link targets, existence of cross-branch documents and diff isolation. GPA examples were checked against the authored fixture. There are no application build or test commands in this baseline; reporting a successful application build would be inaccurate.
-
-The SDP-7 strict static design audit reported no findings on the documentation-only branch. It does not establish browser accessibility or visual correctness. Figma verification calls were blocked by the Starter limit, which remains visible in the README and UX document.
-
-- [x] Explain the project, users, scope and selected technology direction.
-- [x] Provide actual branch/file locations and local Git instructions.
-- [x] Separate the real repository tree from a proposed future code layout.
-- [x] Review comparable documentation and record specific lessons with attribution.
-- [x] Provide task-scoped commit and PR conventions.
-- [ ] Reconcile detailed YouTrack acceptance criteria with the task owner.
-- [ ] Review and publish each task branch when the destination is confirmed.
-- [ ] Update the index to relative task-document links after their independent merges.
-
-**Prepared review comment:** “SDP-10 replaces the placeholder README with the project overview, scoped MVP, technology direction, team contributions and real setup instructions. It adds a documentation index, contribution guide and PR template. Other task documents remain in their own branches; the guide records source conflicts and the exact repository state. No application implementation, deployment or completed usability study is claimed.”
-
-The comment is saved locally for review and has not been posted to GitHub or YouTrack.
-
-## 6. Final consolidation gate
-
-Per the project owner's decision, SDP-10 remains a draft until the team's YouTrack deliverables are completed and reviewed. The short root README follows the supplied DalaSu example in organization only; its implementation claims and commands are not reused.
-
-Before finalizing SDP-10:
-
-- [ ] Check the relevant team tasks and independent reviews in YouTrack.
-- [ ] Inspect the integrated repository tree and agreed remote.
-- [ ] Reconcile scope, stack and team responsibilities with the accepted documents.
-- [ ] Replace cross-branch references with verified links to integrated documents.
-- [ ] Confirm the installed Figma revision and prototype link.
-- [ ] Add only directory entries and setup/test commands verified against the actual project.
-- [ ] Confirm team access and obtain an independent review of SDP-10.
-
-This defers finalization; it does not schedule automatic monitoring or mark any task complete.
+The project owner requested no GitHub push. No PR, remote branch change or external reviewer request was performed.

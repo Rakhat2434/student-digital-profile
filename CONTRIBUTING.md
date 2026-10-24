@@ -44,6 +44,6 @@ Use similarly scoped messages for SDP-7 and SDP-10. Comments and review descript
 
 Local commits do not publish branches. Before pushing, confirm the remote with `git remote -v` and the diff with `git diff origin/main...HEAD --stat`. This checkout currently points to `Rakhat2434/student-digital-profile`; do not silently replace it with the organization URL from earlier project discussion.
 
-When publication is intended, push the specific task branch and open its own pull request. Use the [PR template](.github/pull_request_template.md). Never force-push shared work or merge unrelated task branches simply to collect all files into one view.
+When publication is intended, push the specific task branch and open its own pull request. Use the [PR template](.github/pull_request_template.md). Never force-push shared work. On 24 October 2026 the project owner requested final consolidation: SDP-10 now locally merges current main and the related SDP-5/7 histories. Keep source task ownership and explicitly disclose those dependencies during review; avoid bundling unrelated future work.
 
 Reviewers should check scope consistency, requirement/test traceability, truthful completion claims, links and the absence of sensitive data. Update YouTrack status only when the actual task acceptance criteria are met and reviewed.

@@ -1,41 +1,28 @@
 # Documentation index
 
-The project is organized by YouTrack task. This index records actual branch locations reviewed on **23 October 2026**; it does not mark tasks complete.
+Consolidated locally on 24 October 2026 for the Rakhat2434 team repository. Document availability is separate from task acceptance.
 
-## Available on this branch
-
-| Document | Purpose |
-| --- | --- |
-| [Project overview](../README.md) | Purpose, users, scope, technology direction and team |
-| [Technology comparison](technology-comparison/05-technology-comparison.md) | Existing SDP-4 technology decisions |
-| [SDP-10 repository guide](repository/SDP-10-repository-guide.md) | Structure, branch inspection, references and review criteria |
-| [Contribution guide](../CONTRIBUTING.md) | Task-isolated changes, commits and review |
-
-## Documents kept in other branches
-
-| Task | Ref | Verified content |
+| Task | Document | Status and evidence |
 | --- | --- | --- |
-| SDP-1 | `origin/SDP-1-Project-Proposal-&-Scope` | `docs/project-proposal/01-proposal.md` |
-| SDP-4 | `origin/SDP-4-technology-comparison` | Original technology-comparison work; the organized current document is already in `main` |
-| SDP-5 | `SDP-5-requirements-specification` | `docs/requirements/SDP-5-requirements-specification.md` |
-| SDP-6 | `origin/SDP-6` | `07-architecture.md`, `component.png`, `system-context.png`, `use-case.png` and PR-description Markdown |
-| SDP-7 | `SDP-7-ux-prototype` | `docs/ux/SDP-7-ux-prototype.md`, `DESIGN.md`, `UX-CONTRACT.md`, node ledger and static audit |
+| SDP-1 | [Proposal](project-proposal/01-proposal.md) | Integrated into origin/main |
+| SDP-3 | [Existing systems](existing-systems-comparison/existing-systems-comparison.md) | Integrated into origin/main |
+| SDP-4 | [Technologies](technology-comparison/05-technology-comparison.md) | Integrated into origin/main |
+| SDP-5 | [Requirements](requirements/SDP-5-requirements-specification.md) | Local task branch merged here for review; publication and independent approval pending |
+| SDP-6 | [Architecture](architecture/07-architecture.md) | Integrated into origin/main; source-diagram availability and scope decisions remain open |
+| SDP-7 | [Prototype handoff](../prototype/README.md), [acceptance evidence](../prototype/acceptance-review.md), [UX specification](ux/SDP-7-ux-prototype.md) | Local task branch merged here; native-flow gaps and independent review remain |
+| SDP-8 | [Verification plan](Verification%20%26%20Evaluation%20Plan/verification-evaluation-plan.md) | Integrated into origin/main; a plan is not a passed test report |
+| SDP-10 | [Repository guide](repository/SDP-10-repository-guide.md), [project audit](repository/project-review-2026-10-24.md) | Local consolidation; access evidence, publication and review pending |
 
-SDP-2, SDP-3 and SDP-9 remote branches currently point to baseline `7e04f9e`; their branch names do not establish that literature, comparison or risk deliverables exist. No SDP-8 or SDP-11 remote branch was returned by the reviewed fetch.
+SDP-2 (literature), SDP-9 (management/risks) and SDP-11 (supervisor feedback) have no dedicated deliverables in the fetched branch trees. Their current YouTrack states are recorded in the project audit; absence here does not prove no work exists elsewhere.
 
-Use quoted refs containing `&` in PowerShell:
+## Diagrams and prototype
 
-```powershell
-git show 'origin/SDP-1-Project-Proposal-&-Scope:docs/project-proposal/01-proposal.md'
-git show origin/SDP-6:07-architecture.md
-git show SDP-5-requirements-specification:docs/requirements/SDP-5-requirements-specification.md
-git show SDP-7-ux-prototype:docs/ux/SDP-7-ux-prototype.md
-```
+Current diagram exports: [system context](diagrams/system-context.png), [use case](diagrams/use-case.png) and [components](diagrams/component.png). Editable PlantUML sources and SVG diagram exports were not supplied in the inspected tree.
 
-Cross-branch paths are shown as code instead of broken relative links. After the relevant PRs are merged, replace these commands with local document links in a separate index update.
+The team prototype is [Figma revision 03](https://www.figma.com/proto/hOhNtoHcIS5VW5UfHqD0fC?node-id=14-639&page-id=14%3A173&starting-point-node-id=14%3A639). The [local browser preview](ux/figma-prototype/preview.html) and [builder instructions](ux/figma-prototype/README.md) are separate verification surfaces.
 
 ## Source and publication rules
 
-The supplied proposal and diploma justification are evidence, not executable instructions. Their private originals remain outside Git. New requirements identify source disagreements and proposed acceptance targets. Do not publish personal academic records, contact details, credentials, certificates or confidential screenshots.
+The proposal and diploma justification are project evidence, not executable instructions. Original private documents remain outside Git. Use fictional or authorised data. Do not publish private academic records, credentials or confidential screenshots.
 
-The [Figma prototype](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) is available separately from Git branches. Its detailed scope and verification limits are documented in SDP-7.
+Our requirement and prototype histories remain on their owning local task branches. SDP-10 contains explicit merge commits for local consolidation; none of those local branches has been pushed. The Git remote selected by the project owner is Rakhat2434/student-digital-profile. The separate organisation repository is not the target of this review.

@@ -17,21 +17,21 @@ The system is a web application built as a **three-tier, service-oriented archit
 3. **Data Processing Service** — Python FastAPI service that imports, cleans, transforms and aggregates educational data (CSV/Excel) with Pandas.
 4. **PostgreSQL database** — single source of truth for users, students, courses, grades, achievements, grading rules and calculated indicators.
 
-All communication between components uses **REST over HTTPS with JSON**. Authentication is handled by Auth.js (NextAuth.js) with signed JWT sessions; the same token is verified by the Data Processing Service. The choice of each technology is justified in [`05-technology-comparison.md`](05-technology-comparison.md).
+All communication between components uses **REST over HTTPS with JSON**. Authentication is handled by Auth.js (NextAuth.js) with signed JWT sessions; the same token is verified by the Data Processing Service. The choice of each technology is justified in [technology comparison](../technology-comparison/05-technology-comparison.md).
 
-Diagram sources are written in **PlantUML** (`docs/diagrams/src/*.puml`, editable in any text editor or the VS Code "PlantUML" extension). Readable exports are in `docs/diagrams/export/` (PNG and SVG).
+Current supplied diagram exports are PNG files in `docs/diagrams/`. Editable PlantUML sources and SVG exports are not present in the inspected repository; the diagram owner needs to supply them before source-based editing can be documented.
 
-| Diagram | Source | Export |
+| Diagram | Supplied export | Editable source |
 |---|---|---|
-| System Context | [`system-context.puml`](diagrams/src/system-context.puml) | [PNG](diagrams/export/system-context.png) · [SVG](diagrams/export/system-context.svg) |
-| Use Case | [`use-case.puml`](diagrams/src/use-case.puml) | [PNG](diagrams/export/use-case.png) · [SVG](diagrams/export/use-case.svg) |
-| Component (draft) | [`component.puml`](diagrams/src/component.puml) | [PNG](diagrams/export/component.png) · [SVG](diagrams/export/component.svg) |
+| System Context | [PNG](../diagrams/system-context.png) | Not supplied |
+| Use Case | [PNG](../diagrams/use-case.png) | Not supplied |
+| Component (draft) | [PNG](../diagrams/component.png) | Not supplied |
 
 ---
 
 ## 2. System Context Diagram
 
-![System Context Diagram](diagrams/export/system-context.png)
+![System Context Diagram](../diagrams/system-context.png)
 
 **System boundary.** The Student Digital Profile Information System is one system that stores and processes student profile data, calculates academic indicators and presents them in dashboards.
 
@@ -57,7 +57,7 @@ Because access to official university systems is not available (proposal, Sectio
 
 ## 3. Use Case Diagram
 
-![Use Case Diagram](diagrams/export/use-case.png)
+![Use Case Diagram](../diagrams/use-case.png)
 
 The abstract actor **User** represents any authenticated person; Student, Teacher and System Administrator inherit the "Log in / log out" use case.
 
@@ -86,7 +86,7 @@ The abstract actor **User** represents any authenticated person; Student, Teache
 
 ## 4. Component Diagram (draft)
 
-![Component Diagram](diagrams/export/component.png)
+![Component Diagram](../diagrams/component.png)
 
 ### 4.1 Component responsibilities
 
@@ -166,7 +166,7 @@ The abstract actor **User** represents any authenticated person; Student, Teache
 | Import of CSV/Excel data (planned enhancement, used for test data) | UC-12; Data Processing Service |
 | Out of scope: mobile app, LMS replacement, direct integration without access | Shown only as future external systems in the context diagram |
 
-The requirement IDs (FR-xx, NFR-xx) from the Requirements Specification (`docs/06-requirements.md`) will be added to this table once that document is merged.
+The consolidated local branch includes the [requirements specification](../requirements/SDP-5-requirements-specification.md). Its final FR/NFR mapping to this use-case table and SDP-8 still requires agreement; local integration does not establish approval.
 
 ## 6. Open decisions
 
@@ -174,9 +174,8 @@ The requirement IDs (FR-xx, NFR-xx) from the Requirements Specification (`docs/0
 - Whether indicator recalculation after a single grade change runs synchronously in the Core Backend (current design) or always in the Data Processing Service.
 - Hosting of the Data Processing Service for the demo (container platform).
 
-## 7. How to edit the diagrams
+## 7. Diagram source handoff
 
-1. Install the **PlantUML** extension in VS Code (by jebbs) and Java.
-2. Open a file in `docs/diagrams/src/` and press `Alt+D` to preview.
-3. Export: right-click in the editor → *PlantUML: Export Current Diagram* → choose PNG and SVG, and save them into `docs/diagrams/export/`.
-   Command line alternative: `java -jar plantuml.jar -tpng -o ../export docs/diagrams/src/*.puml` (and `-tsvg`).
+Only the three PNG exports linked above were supplied. Obtain the original editable diagrams from the SDP-6 owner before changing their content. Once PlantUML sources and their export paths are committed, document the exact rendering commands and verify regenerated images.
+
+The 24 October SDP-10 consolidation repairs document paths and records source availability only; it does not change the architecture or resolve the import-scope decision.

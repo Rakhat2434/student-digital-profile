@@ -12,7 +12,7 @@ The task description was checked in authenticated YouTrack on 23 October 2026. T
 - [UX specification](../docs/ux/SDP-7-ux-prototype.md), [design decisions](../DESIGN.md), [interaction contract](../UX-CONTRACT.md).
 - `exports/`: five SVG design boards for review and import. The 41-state interactive package remains in `docs/ux/figma-prototype/` to avoid duplicating executable sources.
 
-The cloud Figma file currently contains the original 13 screens. The redesigned local package contains 41 screens and 288 transitions; its installation and visual verification in Figma are still pending. Browser checks do not establish that the cloud file has been updated.
+Revision 03 is installed on page 14:173. The [native student-flow verification](acceptance-review.md) records the inspected login-to-achievement-save journey. The package has 41 screens and 288 transitions; teacher, administrator and mobile checks in native Figma remain pending. The old node ledger describes revision 01.
 
 ## Acceptance checklist
 
@@ -41,7 +41,7 @@ Inputs and saved states are scripted demonstration data. General navigation can 
 - Reviewer: pending
 - Date: pending
 - Branch/commit reviewed: pending
-- Figma page and Present link: pending installation
+- Figma page and Present link: revision 03, page 14:173; see acceptance-review.md
 - Findings and resolutions: pending
 - Approval: pending
 
