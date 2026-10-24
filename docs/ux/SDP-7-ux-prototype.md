@@ -68,7 +68,7 @@ Desktop frames are 1440 px wide with content-driven height; the mobile frame is 
 
 ## 5. Original revision-01 walkthroughs (historical)
 
-For the current 85-screen package, follow the [revision-04 demonstration](../../prototype/README.md#five-minute-demonstration). Revision 04 adds the missing achievement/admin scenarios while retaining the saved achievement list, A-to-B grade correction with GPA 3.23 and mobile navigation. The older walkthroughs below describe only the original Figma revision.
+For the current 85-screen package, follow the [revision-04 demonstration](../../Prototype.md#five-minute-demonstration). Revision 04 adds the missing achievement/admin scenarios while retaining the saved achievement list, A-to-B grade correction with GPA 3.23 and mobile navigation. The older walkthroughs below describe only the original Figma revision.
 
 ### Student: inspect progress
 

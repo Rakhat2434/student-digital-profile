@@ -39,7 +39,7 @@ Run the builder, wait for Ready, download its verification report and share the 
 
 Remaining before task acceptance: native revision-04 confirmation and Present checks; agree D-01 import / D-06 teacher visibility with the team; independent teammate review. No real authentication, persistent account changes, file upload or backend permission tests are claimed. General navigation returns to the baseline scenario; saved outcomes live in explicit saved states.
 
-SDP-7 stays In Progress. PR #10 remains the owning review; no merge into main is authorised.
+The previous baseline was merged in PR #10 by Rakhat2434 at aef39b9; its team approval record is preserved in Prototype.md. Revision 04 needs a separate follow-up PR and review. No merge of revision 04 into main is authorised.
 
 ## Additional native revision-03 checks · 24 October
 
