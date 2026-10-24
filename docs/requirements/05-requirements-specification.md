@@ -1,10 +1,10 @@
-# SDP-5 · Requirements Specification
+# 05 · Requirements Specification
 
 **Student Digital Profile Information System**
 
 Author: Aimaut Bolatkhanuly (`aimautb`) · Frontend developer
 
-Version: 1.0 · 23 October 2026 · **Draft for team and supervisor review**
+Version: 1.1 · 24 October 2026 · **Draft for team and supervisor review**
 
 Task: [SDP-5](https://student-digital-profile.youtrack.cloud/issue/SDP-5)
 
@@ -12,7 +12,7 @@ Task: [SDP-5](https://student-digital-profile.youtrack.cloud/issue/SDP-5)
 
 The project is a web-based information system that combines student academic records, calculated indicators and selected achievements into one digital profile. Students inspect their progress; teachers maintain results for assigned courses; administrators manage accounts, assignments and grading configuration.
 
-This is a requirements baseline, not a claim that the application is implemented. The authenticated SDP-5 description and acceptance criteria were verified on 23 October 2026. They require identified and prioritized requirements, measurable mandatory criteria, publication under docs/, and review by another team member. Publication and independent review remain pending.
+This is a requirements baseline, not a claim that the application is implemented. The authenticated SDP-5 description and acceptance criteria were verified on 23 October 2026. They require identified and prioritized requirements, measurable mandatory criteria, publication under docs/, and review by another team member. The specification is published in [PR #9](https://github.com/Rakhat2434/student-digital-profile/pull/9); independent team review and the recorded scope decisions remain pending.
 
 | Source | Used for |
 | --- | --- |
@@ -81,7 +81,6 @@ Authorization must be enforced by the server on list, detail, aggregate and atta
 | FR-12 | Must | Configure grading rules | The configuration names scale/version and validates mappings; recalculation uses the recorded policy version, not an undocumented client formula |
 | FR-13 | Must | Recover from empty and failed requests | Empty datasets offer an explanation; failures offer retry; form failures preserve entered values and do not claim successful saving |
 | FR-14 | Should | Provide traceability for academic edits | Result changes record actor, time, previous value and new value; the UI can show when results were updated |
-
 | FR-15 | Must | Create and maintain a student profile through authorized administration | Creating a test student account with a unique student ID creates exactly one linked profile. An authorized administrator can correct programme/group metadata; duplicate IDs and invalid references are rejected without partial writes. Students cannot change their institutional ID or academic results through profile fields. |
 
 ### Main use cases
@@ -180,7 +179,7 @@ The numerical targets below are **proposed test targets** to align with SDP-8, n
 - [x] Record source conflicts and unapproved policies explicitly.
 - [x] Read and reconcile the SDP-5 task-level YouTrack criteria.
 - [ ] Resolve D-01–D-06 with the team/supervisor.
-- [ ] Publish this branch to the agreed GitHub repository under docs/.
+- [x] Publish this branch to the agreed GitHub repository under docs/; review continues in [PR #9](https://github.com/Rakhat2434/student-digital-profile/pull/9).
 - [ ] Obtain review from another team member and record the review link.
 - [ ] Agree NFR measurement targets with the owner of SDP-8.
 - [ ] Validate requirements with representative students and teachers.
@@ -197,7 +196,7 @@ Checked against the authenticated YouTrack card on 23 October 2026.
 | Each requirement has a unique identifier and priority | FR-01–FR-15; NFR-01–NFR-09 | Prepared |
 | Mandatory requirements have testable criteria | Requirement rows, GPA fixtures and AT-01–AT-09 | Prepared for review |
 | Requirements align with project scope | Sections 1–2; D-01–D-06 explicitly identify unresolved source conflicts | Team agreement pending |
-| Uploaded to GitHub under docs/ | This file on the SDP-5 branch | Publication pending |
+| Uploaded to GitHub under docs/ | docs/requirements/05-requirements-specification.md in [PR #9](https://github.com/Rakhat2434/student-digital-profile/pull/9) | Published |
 | Reviewed by another team member | Reviewer name and review link not yet recorded | Pending |
 
 Task completion concerns the reviewed specification. Passing production tests and completing a usability study are later implementation/evaluation activities, not evidence that has already been obtained. The independent reviewer must confirm the proposed scope and measurement targets before acceptance.
