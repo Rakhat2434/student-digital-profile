@@ -37,7 +37,7 @@ components:
 
 The subsequent [revision 03 builder](docs/ux/figma-prototype/README.md) adds explicit interaction states while preserving revision 02 colours and composition. It constructs vector artwork, editable text and native prototype reactions on a new page. Geometry is fixed rather than a finished Auto Layout/component library. The new page has not yet been created in the user's Figma file; local installation is required while MCP access is limited.
 
-The user's redesign request is captured in [five reviewed vector boards](docs/ux/redesign/README.md). These introduce a 232 px desktop sidebar, a compact metric strip, a labelled GPA chart, a dark profile panel and clearer academic tables while retaining this palette. The mobile board uses a dark GPA panel and course cards. `docs/ux/redesign/build_design.py` owns the generated SVG geometry and palette snapshot for this local proposal. The existing Figma file still contains revision 01 because its Starter MCP limit blocks changes. Do not treat revision 02 geometry as already synchronized with Figma variables, components or prototype links.
+The user's redesign request is captured in [five reviewed vector boards](docs/ux/redesign/redesine.md). These introduce a 232 px desktop sidebar, a compact metric strip, a labelled GPA chart, a dark profile panel and clearer academic tables while retaining this palette. The mobile board uses a dark GPA panel and course cards. `docs/ux/redesign/build_design.py` owns the generated SVG geometry and palette snapshot for this local proposal. This section records the historical revision-02 proposal; current prototype evidence is linked from Prototype.md.
 
 ## Overview
 

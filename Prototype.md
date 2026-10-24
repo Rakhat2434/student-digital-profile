@@ -2,17 +2,17 @@
 
 [YouTrack task](https://student-digital-profile.youtrack.cloud/issue/SDP-7) · [Figma file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC)
 
-The task description was checked in authenticated YouTrack on 23 October 2026. This directory provides the required prototype entry point and exported materials.
+The task description was checked in authenticated YouTrack on 23 October 2026. This root document is the prototype entry point; exported materials remain under prototype/.
 
 ## Open and install
 
-- [Interactive browser preview](../docs/ux/figma-prototype/preview.html): open the downloaded file in a browser; no server is required.
-- [Figma installation instructions](../docs/ux/figma-prototype/README.md): import the local manifest in Figma Desktop and run the builder.
-- [Manifest](../docs/ux/figma-prototype/manifest.json): keep its sibling `code.js` and `ui.html` files together.
-- [UX specification](../docs/ux/SDP-7-ux-prototype.md), [design decisions](../DESIGN.md), [interaction contract](../UX-CONTRACT.md).
-- `exports/`: five SVG design boards for review and import. The 41-state interactive package remains in `docs/ux/figma-prototype/` to avoid duplicating executable sources.
+- [Interactive browser preview](docs/ux/figma-prototype/preview.html): open the downloaded file in a browser; no server is required.
+- [Figma installation instructions](docs/ux/figma-prototype/README.md): import the local manifest in Figma Desktop and run the builder.
+- [Manifest](docs/ux/figma-prototype/manifest.json): keep its sibling `code.js` and `ui.html` files together.
+- [UX specification](docs/ux/SDP-7-ux-prototype.md), [design decisions](DESIGN.md), [interaction contract](UX-CONTRACT.md).
+- `prototype/exports/`: five SVG design boards for review and import. The 41-state interactive package remains in `docs/ux/figma-prototype/` to avoid duplicating executable sources.
 
-The cloud Figma file currently contains the original 13 screens. The redesigned local package contains 41 screens and 288 transitions; its installation and visual verification in Figma are still pending. Browser checks do not establish that the cloud file has been updated.
+The accepted baseline contains 41 screens and 288 transitions; revision 03 was observed in the cloud and sampled in Present. The separate revision-04 follow-up is reviewed in [PR #11](https://github.com/Rakhat2434/student-digital-profile/pull/11); it is not part of this repository-structure change. Browser checks do not establish installation of a new cloud revision.
 
 ## Acceptance checklist
 
