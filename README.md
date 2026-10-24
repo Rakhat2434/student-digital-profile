@@ -69,17 +69,17 @@ The proposed architecture separates the web/core API from the data service and u
 - [Project proposal and scope](docs/project-proposal/01-proposal.md)
 - [Existing systems comparison](docs/existing-systems-comparison/existing-systems-comparison.md)
 - [Technology comparison](docs/technology-comparison/05-technology-comparison.md)
-- [Requirements and acceptance criteria](docs/requirements/SDP-5-requirements-specification.md)
+- [Requirements](docs/requirements/SDP-5-requirements-specification.md)
 - [System architecture and use cases](docs/architecture/07-architecture.md)
 - [Verification and evaluation plan](docs/Verification%20%26%20Evaluation%20Plan/verification-evaluation-plan.md)
 - [Prototype entry point and exports](prototype/README.md)
-- [Prototype acceptance evidence and remaining gaps](prototype/acceptance-review.md)
+- [Prototype review notes](prototype/acceptance-review.md)
 - [Repository audit and task status](docs/repository/project-review-2026-10-24.md)
-- [Contribution workflow](CONTRIBUTING.md)
+- [Team contributions](CONTRIBUTING.md)
 
 [Figma design file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [Revision 03 prototype](https://www.figma.com/proto/hOhNtoHcIS5VW5UfHqD0fC?node-id=14-639&page-id=14%3A173&starting-point-node-id=14%3A639) · [YouTrack project](https://student-digital-profile.youtrack.cloud/projects/SDP/issues)
 
-The current team prototype package contains 41 screens and 288 predefined transitions. Its recorded verification distinguishes local browser tests from sampled Figma Present checks. Native teacher/admin/mobile verification and incomplete administrative workflows remain acceptance gaps. The earlier 31-state Figma file belongs to the other local repository and is not the current team handoff.
+The current team prototype package contains 41 screens and 288 predefined transitions. Browser checks and sampled Figma Present checks are recorded in the prototype review notes. Native teacher/admin/mobile checks and some administrative screens remain unfinished.
 
 ## Open and verify locally
 
@@ -106,10 +106,8 @@ git diff origin/main...HEAD --stat
 
 There is no application install/start/build command yet. Add verified runtime versions, dependency installation, environment examples, migrations, seed data, startup and test instructions once their implementation exists.
 
-## Contribution and review
+## Contributions
 
-Use one owning branch per YouTrack task and include the task ID in commits and pull requests. SDP-10 is the consolidation branch requested on 24 October; the SDP-5/7 merge commits preserve their original histories. Review the SDP-5 and SDP-7 pull requests before accepting SDP-10; its description lists those dependencies.
+See [team contributions by task](CONTRIBUTING.md).
 
-The [repository guide](docs/repository/SDP-10-repository-guide.md) maps SDP-10 acceptance criteria to evidence. Team access and independent review require evidence from the repository owner/reviewers. Keep all three tasks In Progress until their remaining criteria are met.
-
-Do not commit credentials or private student records. No project licence has been supplied; the team must choose one before licensing claims are added.
+Project licence: not yet selected.
