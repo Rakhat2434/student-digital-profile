@@ -11,7 +11,7 @@ Task documents and implementation locations are different things. Reserved folde
 | SDP-5 | [Requirements](requirements/05-requirements-specification.md) |
 | SDP-6 | [Architecture](architecture/07-architecture.md), [diagram handoff](diagrams/README.md) |
 | SDP-7 | [Team prototype guide](../Prototype.md), [historical review](../prototype/acceptance-review.md), [UX specification](ux/SDP-7-ux-prototype.md), [redesign notes](ux/redesign/redesine.md) |
-| SDP-8 | [Verification plan](Verification%20%26%20Evaluation%20Plan/08-verification-evaluation-plan.md) |
+| SDP-8 | [Verification plan](testing/08-verification-evaluation-plan.md) |
 | SDP-9 | [Reserved management/risks area](project-management/README.md) |
 | SDP-10 | [Repository structure](repository/10-repository-structure.md) |
 | SDP-11 | [Reserved supervisor-feedback area](supervisor-feedback/README.md) |
@@ -19,3 +19,5 @@ Task documents and implementation locations are different things. Reserved folde
 The accepted prototype baseline is revision 03. The separate [revision-04 follow-up PR #11](https://github.com/Rakhat2434/student-digital-profile/pull/11) contains 85 screens/686 locally checked transitions and is not included in this structure branch. Native installation/review of that revision remains a separate SDP-7 step.
 
 Original private DOCX sources, credentials and real academic records stay outside Git. Publish only authorised evidence and fictional fixtures. Current task decisions belong in YouTrack and PR reviews rather than inferred status labels in this index.
+
+[All-task YouTrack review — 24 October 2026](repository/youtrack-review-2026-10-24.md)

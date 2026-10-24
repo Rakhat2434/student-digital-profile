@@ -59,7 +59,7 @@ student-digital-profile/
 │   ├── architecture/             07-architecture.md · SDP-6
 │   ├── diagrams/                 supplied PNGs and reserved src/
 │   ├── ux/                       specification, artwork and prototype builder · SDP-7
-│   ├── Verification & Evaluation Plan/ 08-verification-evaluation-plan.md · SDP-8
+│   ├── testing/                  08-verification-evaluation-plan.md · SDP-8
 │   ├── project-management/       reserved task documents · SDP-9
 │   ├── repository/               this structure guide · SDP-10
 │   └── supervisor-feedback/      reserved feedback documents · SDP-11

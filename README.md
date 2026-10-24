@@ -72,7 +72,7 @@ The proposed architecture separates the web/core API from the data service and u
 - [Technology comparison](docs/technology-comparison/04-technology-comparison.md)
 - [Requirements](docs/requirements/05-requirements-specification.md)
 - [System architecture and use cases](docs/architecture/07-architecture.md)
-- [Verification and evaluation plan](docs/Verification%20%26%20Evaluation%20Plan/08-verification-evaluation-plan.md)
+- [Verification and evaluation plan](docs/testing/08-verification-evaluation-plan.md)
 - [Prototype guide](Prototype.md) and [SVG exports](prototype/exports/)
 - [Prototype review notes](prototype/acceptance-review.md)
 - [Repository structure and implementation locations](docs/repository/10-repository-structure.md)
@@ -80,7 +80,7 @@ The proposed architecture separates the web/core API from the data service and u
 
 [Figma design file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [Revision 03 prototype](https://www.figma.com/proto/hOhNtoHcIS5VW5UfHqD0fC?node-id=14-639&page-id=14%3A173&starting-point-node-id=14%3A639) · [YouTrack project](https://student-digital-profile.youtrack.cloud/projects/SDP/issues)
 
-This branch preserves the accepted revision-03 prototype package: 41 screens and 288 predefined transitions. The separate [SDP-7 revision-04 draft PR #11](https://github.com/Rakhat2434/student-digital-profile/pull/11) adds 85 screens/686 locally checked transitions; its native installation and verification remain separate work.
+This branch preserves the accepted revision-03 prototype package: 41 screens and 288 predefined transitions. The separate [SDP-7 revision-04 PR #11](https://github.com/Rakhat2434/student-digital-profile/pull/11) adds 85 screens/686 locally checked transitions; its native installation and verification remain separate work.
 
 ## Repository locations
 
@@ -127,3 +127,5 @@ There is no application install/start/build command yet. Add verified runtime ve
 See [team contributions by task](CONTRIBUTING.md).
 
 Project licence: not yet selected.
+
+[All-task YouTrack review and remaining work](docs/repository/youtrack-review-2026-10-24.md)
