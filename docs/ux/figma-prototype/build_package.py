@@ -6,6 +6,7 @@ sys.dont_write_bytecode = True
 HERE=Path(__file__).parent
 sys.path.insert(0,str(HERE.parent/'redesign'))
 import build_design as d
+from complete_scenarios import extend
 C=d.C
 screens={}
 def add(key,board,title,links=None):
@@ -99,11 +100,13 @@ for key,title,lines in [('mobile-records','Academic records',['Software architec
     for x,label,to in [(20,'Overview','mobile'),(143,'Records','mobile-records'),(263,'Achievements','mobile-achievements')]:b.text(x,815,label,13,C['accent'],600);link(s,x-4,778,117,62,label,to)
     link(s,20,16,350,60,'Student profile','mobile-profile');finish(s,b)
 
+extend(screens,d,base,panel,action,link,finish)
+
 # Explicit interaction map. No hotspot points to a missing screen.
 for key,s in list(screens.items()):
     role=s.get('role')
     if role in ['Student','Teacher','Administrator']:
-        nav=[('Overview','overview'),('Academic records','records'),('Achievements','achievements')] if role=='Student' else [('Assigned students','teacher'),('Academic results','teacher')] if role=='Teacher' else [('Accounts and assignments','admin'),('Scope policy','admin-policy')]
+        nav=[('Overview','overview'),('Academic records','records'),('Achievements','achievements')] if role=='Student' else [('Assigned students','teacher'),('Academic results','teacher')] if role=='Teacher' else [('Accounts','admin'),('Assignments','admin-assignments'),('Grading policy','admin-policy'),('Access scope','admin-access')]
         for i,(label,to) in enumerate(nav):link(s,16,151+i*54,200,44,label,to)
         link(s,20,920,192,65,'Account and sign out','profile' if role=='Student' else 'teacher-profile' if role=='Teacher' else 'admin')
         link(s,1348,20,48,42,'Account','profile' if role=='Student' else 'teacher-profile' if role=='Teacher' else 'admin')
@@ -111,8 +114,8 @@ for key,s in list(screens.items()):
     # Self destinations are selected/read-only controls, not navigation reactions.
     s['links']=[l for l in s['links'] if l['to']!=key]
     if role=='Administrator':
-        s['svg']=s['svg'].replace('Assigned students','Accounts &amp; assignments').replace('Academic results','Scope policy')
-        # Period selection is informational for this read-only admin workspace.
+        s['svg']=s['svg'].replace('Autumn 2026  ∨','Policy: demo-v1')
+        if key in ['admin-grading-saved','admin-grading-version']:s['svg']=s['svg'].replace('Policy: demo-v1','Policy: demo-v2')
 for key in ['overview','records']:
     s=screens[key]
     for i,target in enumerate(['course','course-db','course-research']):link(s,288,(805+i*49 if key=='overview' else 430+i*67),752 if key=='overview' else 1096,49 if key=='overview' else 67,'Open course result',target)
@@ -139,7 +142,7 @@ for s in screens.values():
         assert l['to'] in screens,(s['key'],l)
         assert 0<=l['x'] and 0<=l['y'] and l['x']+l['w']<=s['width'] and l['y']+l['h']<=s['height'],(s['key'],l)
 
-payload={'version':'03','screens':list(screens.values()),'starts':{'Student journey':'login','Teacher journey':'teacher','Administration review':'admin','Mobile journey':'mobile'}}
+payload={'version':'04','screens':list(screens.values()),'starts':{'Student journey':'login','Teacher journey':'teacher','Administration review':'admin','Mobile journey':'mobile'}}
 (HERE/'prototype.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 runtime=(HERE/'runtime.js').read_text(encoding='utf-8')
 (HERE/'code.js').write_text('const PROTOTYPE = '+json.dumps(payload,ensure_ascii=False)+';\n'+runtime,encoding='utf-8')
