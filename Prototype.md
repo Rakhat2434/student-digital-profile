@@ -2,7 +2,7 @@
 
 [YouTrack task](https://student-digital-profile.youtrack.cloud/issue/SDP-7) · [Figma file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC)
 
-The task description was checked in authenticated YouTrack on 23 October 2026. This document provides the prototype entry point; exported materials remain in prototype/.
+The task description was checked in authenticated YouTrack on 23 October 2026. This root document is the prototype entry point; exported materials remain under prototype/.
 
 ## Open and install
 
@@ -10,9 +10,9 @@ The task description was checked in authenticated YouTrack on 23 October 2026. T
 - [Figma installation instructions](docs/ux/figma-prototype/README.md): import the local manifest in Figma Desktop and run the builder.
 - [Manifest](docs/ux/figma-prototype/manifest.json): keep its sibling `code.js` and `ui.html` files together.
 - [UX specification](docs/ux/SDP-7-ux-prototype.md), [design decisions](DESIGN.md), [interaction contract](UX-CONTRACT.md).
-- `prototype/exports/`: nine SVG design boards, including achievement editing, account creation, teacher assignment and grading-policy preview. The 85-state interactive package remains in `docs/ux/figma-prototype/` to avoid duplicating executable sources.
+- `prototype/exports/`: five SVG design boards for review and import. The 41-state interactive package remains in `docs/ux/figma-prototype/` to avoid duplicating executable sources.
 
-Revision 04 contains **85 screens and 686 transitions**. Every local hotspot was clicked without force and reached its declared destination. [Revision-04 evidence and open gates](prototype/revision-04-review.md) distinguishes local checks and independently observed Figma results. The last independently observed cloud page is revision 03 (`14:173`); revision 04 still needs installation, a verified page link and native audit report.
+The accepted baseline contains 41 screens and 288 transitions; revision 03 was observed in the cloud and sampled in Present. The separate revision-04 follow-up is reviewed in [PR #11](https://github.com/Rakhat2434/student-digital-profile/pull/11); it is not part of this repository-structure change. Browser checks do not establish installation of a new cloud revision.
 
 ## Acceptance checklist
 

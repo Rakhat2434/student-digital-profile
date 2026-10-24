@@ -1,7 +1,9 @@
-# SDP-7 prototype materials
+# Prototype materials
 
-[Figma design file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [Current prototype guide](../Prototype.md) · [Revision-04 verification](revision-04-review.md)
+[Team Figma file](https://www.figma.com/design/hOhNtoHcIS5VW5UfHqD0fC) · [Prototype guide](../Prototype.md) · [Review evidence](acceptance-review.md)
 
-Revision 04: 85 screens, 686 local transitions verified by individual clicks, nine SVG exports in exports/. Installation and native verification of revision 04 remain pending; the last independently observed cloud page is revision 03.
+SVG review exports are in exports/. The builder and local preview remain in docs/ux/figma-prototype/; their locations are unchanged by SDP-10.
 
-For the complete demonstration, installation instructions and review record, see Prototype.md. The team's approved record for the previous baseline is preserved separately from the pending revision-04 review.
+## Five-minute demonstration
+
+Follow the [team walkthrough](../Prototype.md#five-minute-demonstration). The root Prototype.md preserves the team's existing review and approval record.
