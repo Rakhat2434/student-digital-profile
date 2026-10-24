@@ -8,7 +8,7 @@ A diploma project that brings a student's academic records, GPA, semester progre
 
 Planning, requirements and interactive prototyping. The team has integrated the proposal, system comparison, technology decisions, architecture, three diagram exports and verification plan into `main`. This local SDP-10 branch additionally consolidates the SDP-5 requirements and SDP-7 prototype materials through merge commits.
 
-The repository does not yet contain an implemented web application, backend service, database migrations or application dependency manifests. Prototype screens use fictional data and scripted transitions. Publication and independent review of our task branches remain pending.
+The repository does not yet contain an implemented web application, backend service, database migrations or application dependency manifests. Prototype screens use fictional data and scripted transitions. The task branches are published; independent team review remains pending.
 
 ## Problem and aim
 
@@ -81,38 +81,6 @@ The proposed architecture separates the web/core API from the data service and u
 
 The current team prototype package contains 41 screens and 288 predefined transitions. Its recorded verification distinguishes local browser tests from sampled Figma Present checks. Native teacher/admin/mobile verification and incomplete administrative workflows remain acceptance gaps. The earlier 31-state Figma file belongs to the other local repository and is not the current team handoff.
 
-## Repository structure
-
-```text
-.github/pull_request_template.md
-.gitignore
-README.md
-CONTRIBUTING.md
-DESIGN.md
-UX-CONTRACT.md
-apps/web/                  Planned web/core API location; guidance only
-services/data/             Planned data service location; guidance only
-config/                    Configuration guidance; no secrets or runtime config
-tests/                     Cross-service test guidance; no application tests yet
-docs/
-  README.md
-  project-proposal/
-  existing-systems-comparison/
-  technology-comparison/
-  requirements/
-  architecture/
-  diagrams/                Current PNG diagram exports
-  Verification & Evaluation Plan/
-  ux/                      UX specification and local prototype builder
-  repository/              Repository guide, audit and acceptance status
-prototype/
-  README.md
-  acceptance-review.md
-  exports/                 Five SVG review boards
-```
-
-The code/config/test directories contain ownership guidance only. Add runtime files and executable checks when implementation begins.
-
 ## Open and verify locally
 
 Clone the team repository and inspect the branch you actually received:
@@ -124,7 +92,7 @@ git status --short --branch
 git branch -a
 ```
 
-The command above downloads published work. Our local SDP-5/7/10 commits have not been pushed, so cloning today will not include this consolidated branch. In the existing local checkout/worktree, select `SDP-10-github-readme-repository-structure` to review this package.
+The command above downloads published work. Select `SDP-10-github-readme-repository-structure` with `git switch --track origin/SDP-10-github-readme-repository-structure` to review the consolidated package after a fresh clone. In an existing checkout with that local branch, use `git switch SDP-10-github-readme-repository-structure`.
 
 Open Markdown in VS Code and preview it with Ctrl+Shift+V. Open `docs/ux/figma-prototype/preview.html` in a browser for the local clickable demonstration. Figma installation and package-only checks are documented in the [prototype builder guide](docs/ux/figma-prototype/README.md).
 
@@ -138,9 +106,9 @@ git diff origin/main...HEAD --stat
 
 There is no application install/start/build command yet. Add verified runtime versions, dependency installation, environment examples, migrations, seed data, startup and test instructions once their implementation exists.
 
-## Workflow and acceptance
+## Contribution and review
 
-Use one owning branch per YouTrack task and include the task ID in commits and pull requests. SDP-10 is the local consolidation branch requested on 24 October; the SDP-5/7 merge commits preserve their original histories. Review and publish the dependency branches before the final SDP-10 PR, or explicitly disclose those dependencies in the PR.
+Use one owning branch per YouTrack task and include the task ID in commits and pull requests. SDP-10 is the consolidation branch requested on 24 October; the SDP-5/7 merge commits preserve their original histories. Review the SDP-5 and SDP-7 pull requests before accepting SDP-10; its description lists those dependencies.
 
 The [repository guide](docs/repository/SDP-10-repository-guide.md) maps SDP-10 acceptance criteria to evidence. Team access and independent review require evidence from the repository owner/reviewers. Keep all three tasks In Progress until their remaining criteria are met.
 
