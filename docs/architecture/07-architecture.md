@@ -166,7 +166,7 @@ The abstract actor **User** represents any authenticated person; Student, Teache
 | Import of CSV/Excel data (planned enhancement, used for test data) | UC-12; Data Processing Service |
 | Out of scope: mobile app, LMS replacement, direct integration without access | Shown only as future external systems in the context diagram |
 
-The consolidated local branch includes the [requirements specification](../requirements/SDP-5-requirements-specification.md). Its final FR/NFR mapping to this use-case table and SDP-8 still requires agreement; local integration does not establish approval.
+The consolidated local branch includes the [requirements specification](../requirements/05-requirements-specification.md). Its final FR/NFR mapping to this use-case table and SDP-8 still requires agreement; local integration does not establish approval.
 
 ## 6. Open decisions
 

@@ -7,7 +7,7 @@ Consolidated locally on 24 October 2026 for the Rakhat2434 team repository. Docu
 | SDP-1 | [Proposal](project-proposal/01-proposal.md) | Integrated into origin/main |
 | SDP-3 | [Existing systems](existing-systems-comparison/existing-systems-comparison.md) | Integrated into origin/main |
 | SDP-4 | [Technologies](technology-comparison/05-technology-comparison.md) | Integrated into origin/main |
-| SDP-5 | [Requirements](requirements/SDP-5-requirements-specification.md) | Local task branch merged here for review; publication and independent approval pending |
+| SDP-5 | [Requirements](requirements/05-requirements-specification.md) | Published in PR #9; independent team approval pending |
 | SDP-6 | [Architecture](architecture/07-architecture.md) | Integrated into origin/main; source-diagram availability and scope decisions remain open |
 | SDP-7 | [Prototype handoff](../prototype/README.md), [acceptance evidence](../prototype/acceptance-review.md), [UX specification](ux/SDP-7-ux-prototype.md) | Local task branch merged here; native-flow gaps and independent review remain |
 | SDP-8 | [Verification plan](Verification%20%26%20Evaluation%20Plan/verification-evaluation-plan.md) | Integrated into origin/main; a plan is not a passed test report |

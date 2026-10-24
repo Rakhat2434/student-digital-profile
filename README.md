@@ -32,7 +32,7 @@ Expected project outcomes are a functional web application, a structured databas
 
 PDF export, advanced competency portfolios, attendance, full Kazakh/Russian/English localisation and external university integrations are future enhancements. Native mobile applications and replacement of the university LMS are outside the initial scope.
 
-CSV/Excel import is **not settled**: the proposal places it in future scope, architecture includes it in the MVP and the verification plan assigns it Should priority. The team must resolve this before implementation. Teacher visibility, certificate storage and academic grading rules also need agreement; see the [requirements decision log](docs/requirements/SDP-5-requirements-specification.md).
+CSV/Excel import is **not settled**: the proposal places it in future scope, architecture includes it in the MVP and the verification plan assigns it Should priority. The team must resolve this before implementation. Teacher visibility, certificate storage and academic grading rules also need agreement; see the [requirements decision log](docs/requirements/05-requirements-specification.md).
 
 ## Team
 
@@ -69,7 +69,7 @@ The proposed architecture separates the web/core API from the data service and u
 - [Project proposal and scope](docs/project-proposal/01-proposal.md)
 - [Existing systems comparison](docs/existing-systems-comparison/existing-systems-comparison.md)
 - [Technology comparison](docs/technology-comparison/05-technology-comparison.md)
-- [Requirements](docs/requirements/SDP-5-requirements-specification.md)
+- [Requirements](docs/requirements/05-requirements-specification.md)
 - [System architecture and use cases](docs/architecture/07-architecture.md)
 - [Verification and evaluation plan](docs/Verification%20%26%20Evaluation%20Plan/verification-evaluation-plan.md)
 - [Prototype entry point and exports](prototype/README.md)
