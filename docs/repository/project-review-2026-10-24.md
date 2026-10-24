@@ -68,7 +68,7 @@ Authenticated project list and SDP-5/7/10 descriptions were read on 24 October 2
 | SDP-10 Repository | aimautb | To Do → In Progress | README/structure consolidated; access verification, publication and reviewer pending |
 | SDP-11 Supervisor feedback | dlsk8946 | To Do | No feedback artefact in fetched branches |
 
-No other participant's task was marked complete or changed. SDP-5 and SDP-7 remain In Progress.
+No other participant's task was marked complete or changed. SDP-5 and SDP-7 remain In Progress. Acceptance updates were published and their presence verified in SDP-5, SDP-7 and SDP-10. They identify the confirmed repository, local consolidation commit 215bc11, verification results and remaining publication/review gates.
 
 ## Findings requiring agreement
 
