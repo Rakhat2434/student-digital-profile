@@ -1,8 +1,8 @@
 # Literature Review
 
 **Project:** Student Digital Profile Information System  
-**YouTrack task:** SDP-2 — Literature Review  
-**Author:** Damir Ushkempir (System Analyst / QA)  
+**YouTrack Task:** SDP-2 — Literature Review  
+**Author:** Damir Ushkempir
 **Date:** 2026-10-23
 
 ---
