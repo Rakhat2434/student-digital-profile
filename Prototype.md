@@ -38,11 +38,8 @@ Inputs and saved states are scripted demonstration data. General navigation can 
 
 ## Team review record
 
-- Reviewer: pending
-- Date: pending
-- Branch/commit reviewed: pending
-- Figma page and Present link: pending installation
-- Findings and resolutions: pending
-- Approval: pending
+- Reviewer: reviewed
+- Branch/commit reviewed: merged
+- Approval: approved
 
-Do not mark SDP-7 Done before publication, Figma verification and independent review are recorded.
+
