@@ -21,13 +21,14 @@ const {chromium} = require(require.resolve('playwright', {paths: [process.argv[2
     // Click every exported hotspot without force: overlapping or inaccessible
     // targets must fail rather than pass only a route-graph assertion.
     const payload=JSON.parse(fs.readFileSync(path.join(__dirname,'prototype.json'),'utf8'));
-    let checked=0;
+    let checked=0;const results=[];
     for(const screen of payload.screens){
       for(let i=0;i<screen.links.length;i++){
         await page.locator('#screens').selectOption(screen.key);
         await check(screen.key);
         await page.locator('#stage button').nth(i).click({timeout:5000});
         await check(screen.links[i].to);
+        results.push({screen:screen.key,index:i,label:screen.links[i].label,to:screen.links[i].to,passed:true});
         checked++;
       }
     }
@@ -35,6 +36,7 @@ const {chromium} = require(require.resolve('playwright', {paths: [process.argv[2
     await page.setViewportSize({width:430,height:900});await page.locator('#screens').selectOption('mobile');await click('Records');await check('mobile-records');await click('Achievements');await check('mobile-achievements');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     assert.deepEqual(errors,[]);
+    fs.writeFileSync(path.join(__dirname,'browser-route-audit.json'),JSON.stringify({version:payload.version,screenCount:payload.screens.length,transitionCount:checked,method:'Every hotspot clicked without force in the local browser preview; actual Figma verification is separate.',pageErrors:errors,results},null,2)+'\n');
     console.log('PASS: '+checked+' individual hotspot clicks, student save/validation, teacher correction/save, mobile navigation, no page errors or narrow overflow. Figma execution is separate.');
   }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

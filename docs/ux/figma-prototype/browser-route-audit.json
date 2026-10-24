@@ -1,0 +1,4811 @@
+{
+  "version": "04",
+  "screenCount": 85,
+  "transitionCount": 686,
+  "method": "Every hotspot clicked without force in the local browser preview; actual Figma verification is separate.",
+  "pageErrors": [],
+  "results": [
+    {
+      "screen": "overview",
+      "index": 0,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 1,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 2,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 3,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 4,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 5,
+      "label": "Open course result",
+      "to": "course",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 6,
+      "label": "Open course result",
+      "to": "course-db",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 7,
+      "label": "Open course result",
+      "to": "course-research",
+      "passed": true
+    },
+    {
+      "screen": "overview",
+      "index": 8,
+      "label": "Explore achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 0,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 1,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 2,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 3,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 4,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 5,
+      "label": "Open course result",
+      "to": "course",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 6,
+      "label": "Open course result",
+      "to": "course-db",
+      "passed": true
+    },
+    {
+      "screen": "records",
+      "index": 7,
+      "label": "Open course result",
+      "to": "course-research",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 0,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 1,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 2,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 3,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 4,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 5,
+      "label": "Certificates",
+      "to": "certificates",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 6,
+      "label": "Academic",
+      "to": "academic",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 7,
+      "label": "Add achievement",
+      "to": "add",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 8,
+      "label": "Open achievement",
+      "to": "certificate",
+      "passed": true
+    },
+    {
+      "screen": "achievements",
+      "index": 9,
+      "label": "Open achievement",
+      "to": "research",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 0,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 1,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 2,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 3,
+      "label": "Edit or inspect result",
+      "to": "grade",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 4,
+      "label": "Edit or inspect result",
+      "to": "grade-arman",
+      "passed": true
+    },
+    {
+      "screen": "teacher",
+      "index": 5,
+      "label": "Edit or inspect result",
+      "to": "grade-amina",
+      "passed": true
+    },
+    {
+      "screen": "mobile",
+      "index": 0,
+      "label": "Records",
+      "to": "mobile-records",
+      "passed": true
+    },
+    {
+      "screen": "mobile",
+      "index": 1,
+      "label": "Achievements",
+      "to": "mobile-achievements",
+      "passed": true
+    },
+    {
+      "screen": "mobile",
+      "index": 2,
+      "label": "Account",
+      "to": "mobile-profile",
+      "passed": true
+    },
+    {
+      "screen": "login",
+      "index": 0,
+      "label": "Continue as student",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "login",
+      "index": 1,
+      "label": "Continue as teacher",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "login",
+      "index": 2,
+      "label": "Review administration",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "login",
+      "index": 3,
+      "label": "Open mobile prototype",
+      "to": "mobile",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 0,
+      "label": "Autumn 2026",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 1,
+      "label": "Spring 2027",
+      "to": "empty",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "period",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 0,
+      "label": "Back to Autumn 2026",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 1,
+      "label": "Test request failure",
+      "to": "error",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "empty",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 0,
+      "label": "Try again",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 1,
+      "label": "Back to overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "error",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 0,
+      "label": "Back to overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 1,
+      "label": "Sign out",
+      "to": "login",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "profile",
+      "index": 5,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 0,
+      "label": "Back to records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 0,
+      "label": "Back to records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course-db",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 0,
+      "label": "Back to records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "course-research",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 0,
+      "label": "Back to achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "certificate",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 0,
+      "label": "Edit achievement",
+      "to": "edit-achievement",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 1,
+      "label": "View evidence",
+      "to": "research-evidence",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 2,
+      "label": "Back to achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 3,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 4,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 5,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 7,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research",
+      "index": 8,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 0,
+      "label": "Back to details",
+      "to": "research",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research-evidence",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 0,
+      "label": "View details",
+      "to": "certificate",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 1,
+      "label": "Clear filter",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "certificates",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 0,
+      "label": "View details",
+      "to": "research",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 1,
+      "label": "Clear filter",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "academic",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 0,
+      "label": "Fill Title",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 1,
+      "label": "Fill Category",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 2,
+      "label": "Fill Date",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 3,
+      "label": "Fill Description",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 4,
+      "label": "Choose sample file",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 5,
+      "label": "Save achievement",
+      "to": "add-error",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 6,
+      "label": "Cancel",
+      "to": "discard",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 7,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 8,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 9,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 10,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 11,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add",
+      "index": 12,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 0,
+      "label": "Fill Title",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 1,
+      "label": "Fill Category",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 2,
+      "label": "Fill Date",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 3,
+      "label": "Fill Description",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 4,
+      "label": "Choose sample file",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 5,
+      "label": "Cancel",
+      "to": "discard",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 6,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 7,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 8,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 9,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 10,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add-error",
+      "index": 11,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 0,
+      "label": "Save achievement",
+      "to": "saved",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 1,
+      "label": "Cancel",
+      "to": "discard",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "add-filled",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "add-filled",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 1,
+      "label": "Discard changes",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "discard",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 0,
+      "label": "View saved list",
+      "to": "achievements-saved",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 1,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 2,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 3,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 5,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "saved",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 0,
+      "label": "View details",
+      "to": "certificate",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 1,
+      "label": "View details",
+      "to": "research",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 2,
+      "label": "View details",
+      "to": "new-detail",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 3,
+      "label": "Add achievement",
+      "to": "add",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 4,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 5,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 6,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 8,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements-saved",
+      "index": 9,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 0,
+      "label": "Back to saved list",
+      "to": "achievements-saved",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 1,
+      "label": "Remove sample entry",
+      "to": "delete-confirm",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "new-detail",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 0,
+      "label": "Keep entry",
+      "to": "new-detail",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 1,
+      "label": "Remove entry",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "delete-confirm",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 0,
+      "label": "Choose demonstration grade",
+      "to": "grade-options",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 1,
+      "label": "Save result",
+      "to": "grade-invalid",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 2,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 3,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 4,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 6,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 0,
+      "label": "Choose B · 3.00",
+      "to": "grade-ready",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 1,
+      "label": "Test invalid 5.00",
+      "to": "grade-invalid",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 2,
+      "label": "Save result",
+      "to": "grade-invalid",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 3,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 4,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 5,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 7,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-options",
+      "index": 8,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 0,
+      "label": "Choose demonstration grade",
+      "to": "grade-options",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 1,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 2,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 3,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 5,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-invalid",
+      "index": 6,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 0,
+      "label": "Choose demonstration grade",
+      "to": "grade-options",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 1,
+      "label": "Save result",
+      "to": "grade-saved",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 2,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 3,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 4,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 6,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-ready",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 0,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 1,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 2,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 3,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 4,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-arman",
+      "index": 5,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 0,
+      "label": "Cancel",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 1,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 2,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 3,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 4,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-amina",
+      "index": 5,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 0,
+      "label": "Back to assigned list",
+      "to": "teacher-saved",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 1,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 2,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 3,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 4,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "grade-saved",
+      "index": 5,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 0,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 1,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 2,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 3,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 4,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 5,
+      "label": "Edit or inspect result",
+      "to": "grade",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 6,
+      "label": "Edit or inspect result",
+      "to": "grade-arman",
+      "passed": true
+    },
+    {
+      "screen": "teacher-saved",
+      "index": 7,
+      "label": "Edit or inspect result",
+      "to": "grade-amina",
+      "passed": true
+    },
+    {
+      "screen": "teacher-period",
+      "index": 0,
+      "label": "Autumn 2026",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-period",
+      "index": 1,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-period",
+      "index": 2,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-period",
+      "index": 3,
+      "label": "Account and sign out",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher-period",
+      "index": 4,
+      "label": "Account",
+      "to": "teacher-profile",
+      "passed": true
+    },
+    {
+      "screen": "teacher-profile",
+      "index": 0,
+      "label": "Back to students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-profile",
+      "index": 1,
+      "label": "Sign out",
+      "to": "login",
+      "passed": true
+    },
+    {
+      "screen": "teacher-profile",
+      "index": 2,
+      "label": "Assigned students",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-profile",
+      "index": 3,
+      "label": "Academic results",
+      "to": "teacher",
+      "passed": true
+    },
+    {
+      "screen": "teacher-profile",
+      "index": 4,
+      "label": "Choose semester",
+      "to": "teacher-period",
+      "passed": true
+    },
+    {
+      "screen": "admin",
+      "index": 0,
+      "label": "Manage profile",
+      "to": "admin-account-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin",
+      "index": 1,
+      "label": "Create student profile",
+      "to": "admin-create",
+      "passed": true
+    },
+    {
+      "screen": "admin",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 0,
+      "label": "Create policy draft",
+      "to": "admin-grading-edit",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 1,
+      "label": "Review access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-policy",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "mobile-records",
+      "index": 0,
+      "label": "Overview",
+      "to": "mobile",
+      "passed": true
+    },
+    {
+      "screen": "mobile-records",
+      "index": 1,
+      "label": "Achievements",
+      "to": "mobile-achievements",
+      "passed": true
+    },
+    {
+      "screen": "mobile-records",
+      "index": 2,
+      "label": "Student profile",
+      "to": "mobile-profile",
+      "passed": true
+    },
+    {
+      "screen": "mobile-achievements",
+      "index": 0,
+      "label": "Overview",
+      "to": "mobile",
+      "passed": true
+    },
+    {
+      "screen": "mobile-achievements",
+      "index": 1,
+      "label": "Records",
+      "to": "mobile-records",
+      "passed": true
+    },
+    {
+      "screen": "mobile-achievements",
+      "index": 2,
+      "label": "Student profile",
+      "to": "mobile-profile",
+      "passed": true
+    },
+    {
+      "screen": "mobile-profile",
+      "index": 0,
+      "label": "Sign out",
+      "to": "login",
+      "passed": true
+    },
+    {
+      "screen": "mobile-profile",
+      "index": 1,
+      "label": "Overview",
+      "to": "mobile",
+      "passed": true
+    },
+    {
+      "screen": "mobile-profile",
+      "index": 2,
+      "label": "Records",
+      "to": "mobile-records",
+      "passed": true
+    },
+    {
+      "screen": "mobile-profile",
+      "index": 3,
+      "label": "Achievements",
+      "to": "mobile-achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 0,
+      "label": "Choose Title",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 1,
+      "label": "Review and save",
+      "to": "edit-achievement-error",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 2,
+      "label": "Cancel",
+      "to": "edit-achievement-discard",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 3,
+      "label": "Use revised sample",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 4,
+      "label": "Test empty title",
+      "to": "edit-achievement-error",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 5,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 6,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 7,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 8,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 9,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement",
+      "index": 10,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 0,
+      "label": "Choose Title",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 1,
+      "label": "Cancel",
+      "to": "edit-achievement-discard",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 2,
+      "label": "Use revised sample",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 3,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 4,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 5,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 7,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-error",
+      "index": 8,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 0,
+      "label": "Review and save",
+      "to": "edit-achievement-saved",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 1,
+      "label": "Cancel",
+      "to": "edit-achievement-discard",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 2,
+      "label": "Test empty title",
+      "to": "edit-achievement-error",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 3,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 4,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 5,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 7,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-ready",
+      "index": 8,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 1,
+      "label": "Discard edits",
+      "to": "research",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-discard",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 0,
+      "label": "View updated details",
+      "to": "research-updated",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 1,
+      "label": "View updated list",
+      "to": "achievements-updated",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "edit-achievement-saved",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 0,
+      "label": "View updated list",
+      "to": "achievements-updated",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 1,
+      "label": "Edit again",
+      "to": "edit-achievement-ready",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "research-updated",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 0,
+      "label": "View details",
+      "to": "certificate",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 1,
+      "label": "View details",
+      "to": "research-updated",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 2,
+      "label": "Overview",
+      "to": "overview",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 3,
+      "label": "Academic records",
+      "to": "records",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 4,
+      "label": "Achievements",
+      "to": "achievements",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 6,
+      "label": "Account",
+      "to": "profile",
+      "passed": true
+    },
+    {
+      "screen": "achievements-updated",
+      "index": 7,
+      "label": "Choose semester",
+      "to": "period",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 0,
+      "label": "Manage profile",
+      "to": "admin-account-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 1,
+      "label": "Manage profile",
+      "to": "admin-created-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 2,
+      "label": "Create student profile",
+      "to": "admin-create",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 3,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 4,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 5,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 6,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-accounts-saved",
+      "index": 8,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 0,
+      "label": "Edit metadata / role",
+      "to": "admin-edit",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 1,
+      "label": "Back to accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-account-detail",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 0,
+      "label": "Choose Name",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 1,
+      "label": "Choose Institutional ID",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 2,
+      "label": "Choose Group / programme",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 3,
+      "label": "Review and save",
+      "to": "admin-create-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 4,
+      "label": "Cancel",
+      "to": "admin-create-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 5,
+      "label": "Use valid sample",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 6,
+      "label": "Test duplicate ID",
+      "to": "admin-create-duplicate",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 7,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 8,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 9,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 10,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 11,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create",
+      "index": 12,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 0,
+      "label": "Choose Name",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 1,
+      "label": "Choose Institutional ID",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 2,
+      "label": "Choose Group / programme",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 3,
+      "label": "Cancel",
+      "to": "admin-create-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 4,
+      "label": "Use valid sample",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 5,
+      "label": "Test duplicate ID",
+      "to": "admin-create-duplicate",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 6,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 7,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 8,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 9,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 10,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-error",
+      "index": 11,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 0,
+      "label": "Choose Name",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 1,
+      "label": "Choose Institutional ID",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 2,
+      "label": "Choose Group / programme",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 3,
+      "label": "Cancel",
+      "to": "admin-create-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 4,
+      "label": "Use valid sample",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 5,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 6,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 7,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 8,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 9,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-duplicate",
+      "index": 10,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 0,
+      "label": "Review and save",
+      "to": "admin-create-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 1,
+      "label": "Cancel",
+      "to": "admin-create-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 2,
+      "label": "Test duplicate ID",
+      "to": "admin-create-duplicate",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 3,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 4,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 5,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 6,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-ready",
+      "index": 8,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "admin-create-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 1,
+      "label": "Discard profile",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-discard",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 0,
+      "label": "View updated accounts",
+      "to": "admin-accounts-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 1,
+      "label": "View new profile",
+      "to": "admin-created-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-create-saved",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 0,
+      "label": "Back to accounts",
+      "to": "admin-accounts-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-created-detail",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 0,
+      "label": "Choose Name",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 1,
+      "label": "Choose Group",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 2,
+      "label": "Choose Role",
+      "to": "admin-role-options",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 3,
+      "label": "Review and save",
+      "to": "admin-edit-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 4,
+      "label": "Cancel",
+      "to": "admin-edit-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 5,
+      "label": "Use revised sample",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 6,
+      "label": "Test empty name",
+      "to": "admin-edit-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 7,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 8,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 9,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 10,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 11,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit",
+      "index": 12,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 0,
+      "label": "Choose Name",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 1,
+      "label": "Choose Group",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 2,
+      "label": "Choose Role",
+      "to": "admin-role-options",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 3,
+      "label": "Cancel",
+      "to": "admin-edit-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 4,
+      "label": "Use revised sample",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 5,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 6,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 7,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 8,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 9,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-error",
+      "index": 10,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 0,
+      "label": "Choose Role",
+      "to": "admin-role-options",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 1,
+      "label": "Review and save",
+      "to": "admin-role-confirm",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 2,
+      "label": "Cancel",
+      "to": "admin-edit-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 3,
+      "label": "Test empty name",
+      "to": "admin-edit-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 4,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 5,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 6,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 7,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 8,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-ready",
+      "index": 9,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 0,
+      "label": "Choose Teacher",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 1,
+      "label": "Keep Student",
+      "to": "admin-edit",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-options",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 1,
+      "label": "Discard changes",
+      "to": "admin-account-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-discard",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 0,
+      "label": "Confirm demo change",
+      "to": "admin-edit-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 1,
+      "label": "Back to editing",
+      "to": "admin-edit-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-role-confirm",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 0,
+      "label": "View changed profile",
+      "to": "admin-updated-detail",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-edit-saved",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 0,
+      "label": "Review assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-updated-detail",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 0,
+      "label": "Add assignment",
+      "to": "admin-assignment-edit",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 1,
+      "label": "Back to accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignments",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 0,
+      "label": "Add assignment",
+      "to": "admin-assignment-edit",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 1,
+      "label": "Remove assignment",
+      "to": "admin-assignment-remove",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-list-saved",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 0,
+      "label": "Choose Teacher",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 1,
+      "label": "Choose Course",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 2,
+      "label": "Choose Group",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 3,
+      "label": "Choose Semester",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 4,
+      "label": "Review and save",
+      "to": "admin-assignment-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 5,
+      "label": "Cancel",
+      "to": "admin-assignment-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 6,
+      "label": "Use valid assignment",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 7,
+      "label": "Test duplicate",
+      "to": "admin-assignment-conflict",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 8,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 9,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 10,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 11,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 12,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-edit",
+      "index": 13,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 0,
+      "label": "Choose Teacher",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 1,
+      "label": "Choose Course",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 2,
+      "label": "Choose Group",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 3,
+      "label": "Choose Semester",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 4,
+      "label": "Cancel",
+      "to": "admin-assignment-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 5,
+      "label": "Use valid assignment",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 6,
+      "label": "Test duplicate",
+      "to": "admin-assignment-conflict",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 7,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 8,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 9,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 10,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 11,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-error",
+      "index": 12,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 0,
+      "label": "Choose Teacher",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 1,
+      "label": "Choose Course",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 2,
+      "label": "Choose Group",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 3,
+      "label": "Choose Semester",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 4,
+      "label": "Cancel",
+      "to": "admin-assignment-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 5,
+      "label": "Use valid assignment",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 6,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 7,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 8,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 9,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 10,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-conflict",
+      "index": 11,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 0,
+      "label": "Review and save",
+      "to": "admin-assignment-confirm",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 1,
+      "label": "Cancel",
+      "to": "admin-assignment-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 2,
+      "label": "Test duplicate",
+      "to": "admin-assignment-conflict",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 3,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 4,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 5,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 6,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-ready",
+      "index": 8,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 1,
+      "label": "Discard changes",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-discard",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 0,
+      "label": "Confirm assignment",
+      "to": "admin-assignment-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 1,
+      "label": "Back to editing",
+      "to": "admin-assignment-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-confirm",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 0,
+      "label": "View updated assignments",
+      "to": "admin-assignment-list-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-saved",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 0,
+      "label": "Keep assignment",
+      "to": "admin-assignment-list-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 1,
+      "label": "Remove assignment",
+      "to": "admin-assignment-removed",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-remove",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 0,
+      "label": "View assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-assignment-removed",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 0,
+      "label": "Back to accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 4,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-access",
+      "index": 5,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 0,
+      "label": "Choose B grade points",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 1,
+      "label": "Review and save",
+      "to": "admin-grading-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 2,
+      "label": "Cancel",
+      "to": "admin-grading-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 3,
+      "label": "Use valid points 3.30",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 4,
+      "label": "Test invalid points 5.00",
+      "to": "admin-grading-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 5,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 6,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 7,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 8,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 9,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-edit",
+      "index": 10,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 0,
+      "label": "Choose B grade points",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 1,
+      "label": "Cancel",
+      "to": "admin-grading-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 2,
+      "label": "Use valid points 3.30",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 3,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 4,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 5,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 6,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-error",
+      "index": 8,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 0,
+      "label": "Review and save",
+      "to": "admin-grading-preview",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 1,
+      "label": "Cancel",
+      "to": "admin-grading-discard",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 2,
+      "label": "Test invalid points 5.00",
+      "to": "admin-grading-error",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 3,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 4,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 5,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 6,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 7,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-ready",
+      "index": 8,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 0,
+      "label": "Keep editing",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 1,
+      "label": "Discard draft",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-discard",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 0,
+      "label": "Review activation",
+      "to": "admin-grading-confirm",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 1,
+      "label": "Back to editing",
+      "to": "admin-grading-ready",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-preview",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 0,
+      "label": "Activate demo-v2",
+      "to": "admin-grading-saved",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 1,
+      "label": "Back to preview",
+      "to": "admin-grading-preview",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-confirm",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 0,
+      "label": "View version details",
+      "to": "admin-grading-version",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 1,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 2,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 3,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 4,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 5,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-saved",
+      "index": 6,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 0,
+      "label": "Review baseline policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 1,
+      "label": "Back to accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 2,
+      "label": "Accounts",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 3,
+      "label": "Assignments",
+      "to": "admin-assignments",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 4,
+      "label": "Grading policy",
+      "to": "admin-policy",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 5,
+      "label": "Access scope",
+      "to": "admin-access",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 6,
+      "label": "Account and sign out",
+      "to": "admin",
+      "passed": true
+    },
+    {
+      "screen": "admin-grading-version",
+      "index": 7,
+      "label": "Account",
+      "to": "admin",
+      "passed": true
+    }
+  ]
+}

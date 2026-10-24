@@ -1,12 +1,14 @@
 {
-  "screens": 41,
-  "interactions": 288,
+  "version": "04",
+  "screens": 85,
+  "interactions": 686,
   "route_and_runtime_contract_tests": "passed with test adapter",
-  "browser_preview_tests": "passed: all 288 individual hotspot clicks and representative journeys",
-  "static_audit": "passed with preview-native-select ownership",
-  "figma_desktop_execution": "owner reported installation; revision 03 observed in browser editor",
-  "cloud_file_updated": true,
-  "figma_present_verification": "student add/validation/save/list journey passed; other journeys pending",
-  "figma_page_id": "14:173",
-  "figma_login_node": "14:639"
+  "browser_preview_tests": "passed: all 686 individual hotspot clicks; browser-route-audit.json records every result",
+  "static_audit": "source destination and hotspot-bounds assertions passed; older static-audit.json is historical",
+  "figma_desktop_execution": "revision-04 installation pending; owner has Desktop/plugin and received exact manifest instructions",
+  "cloud_revision_04_independently_confirmed": false,
+  "native_reaction_readback": "implemented in runtime; exported native report not yet available to agent",
+  "figma_present_verification": "revision-04 journeys pending; revision-03 teacher correction/save/list and mobile records/achievements/profile/logout passed on 24 October; student add/save historically passed",
+  "historical_figma_page_id": "14:173",
+  "historical_figma_login_node": "14:639"
 }
