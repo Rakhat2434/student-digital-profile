@@ -1,0 +1,4 @@
+{
+  "sourceRoots": ["docs/ux/figma-prototype"],
+  "ownership": { "Select/Listbox": "native" }
+}
